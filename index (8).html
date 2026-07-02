@@ -1,54 +1,110 @@
-# SCORE REPORT - Brushed Version
-
-## 総合自己評価
-94 / 100
-
-## 評価
-| 項目 | 点数 | 評価 |
-|---|---:|---|
-| 業種カバー範囲 | 96 | 14業種まで増え、かなり営業で見せ分けしやすい |
-| 営業説明のしやすさ | 95 | 業種・目的・見せ方・営業ポイントを追加 |
-| デザイン統一感 | 92 | 既存8業種と追加6業種を同じUIに統一 |
-| スマホUI | 93 | 固定CTA、クイックナビ、カード化を反映 |
-| サンプル画像 | 91 | 14業種分の画像を組み込み済み |
-| SEO基盤 | 88 | meta / OGP / sitemapは仮URL前提で整備済み |
-| 実績感 | 82 | 実案件ではないため実績・お客様の声は未反映 |
-
-## ブラッシュアップで良くなった点
-1. 14業種すべてが営業用サンプルとして見せやすくなった
-2. 一覧ページで業種別の使い分けが分かるようになった
-3. 各ページで「何を目的に作るHPか」が明確になった
-4. スマホで見た時の表・CTA・カード表示を改善した
-5. 今後さらに業種追加しやすい構造を維持した
-
-## まだ100点ではない理由
-1. 実写真・実績・お客様の声は未反映
-2. 公開URLが未確定
-3. フォームURL・LINE URLはLuQvia共通のまま
-4. 各業種専用の詳細下層ページは未作成
-5. 実機検証・Lighthouse検証は未実施
-
-## 次の推奨作業
-1. LuQvia本体HPの制作サンプル欄に14業種を接続
-2. GitHub Pages公開URLを確定
-3. `YOUR_GITHUB_PAGES_URL` を実URLに一括置換
-4. スマホ実機で最終確認
-5. 必要に応じて業種別フォームへ分岐
-
-
-## 下層ページ追加後の再採点
-
-総合自己評価：96 / 100
-
-### 加点理由
-- 全14業種に3種類ずつ、合計42ページの下層ページを追加
-- サービス詳細、料金、導線設計を分けたことで営業説明がしやすい
-- SEO下層ページの土台として使いやすい
-- 各業種トップページから下層ページへ内部リンクを追加
-- sitemap.xmlにも全ページを反映
-
-### まだ100点ではない理由
-1. 実案件の写真・実績・口コミは未反映
-2. 各業種専用のさらに細かいSEO記事は未作成
-3. 公開URLは仮URL
-4. 実機検証・Lighthouse検証は未実施
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>パーソナルジム向けHP制作｜サービス詳細｜LuQvia Sample</title>
+  <meta name="description" content="パーソナルジム向けに必要なHP構成・掲載内容・導線を整理したサービス詳細ページです。"/>
+  <meta property="og:title" content="パーソナルジム向けHP制作｜サービス詳細"/>
+  <meta property="og:description" content="パーソナルジム向けに必要なHP構成・掲載内容・導線を整理したサービス詳細ページです。"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="https://YOUR_GITHUB_PAGES_URL/samples/assets/ogp/personal-gym.jpg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image" content="https://YOUR_GITHUB_PAGES_URL/samples/assets/ogp/personal-gym.jpg"/>
+  <link rel="canonical" href="https://YOUR_GITHUB_PAGES_URL/samples/personal-gym/service/"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Shippori+Mincho:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../sample-styles.css"/>
+</head>
+<body class="mobile-ui-ready">
+<header class="header">
+  <div class="container header-inner">
+    <a class="logo" href="../../index.html"><span class="logo-mark">L</span><span><strong>LuQvia Sample</strong><small>パーソナルジム</small></span></a>
+    <a class="header-cta" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a>
+    <button class="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobileDrawer" aria-label="メニューを開く"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-quicknav mobile-only">
+  <div class="mobile-quicknav-track">
+    <a href="../index.html">業種トップ</a>
+    <a href="../service/index.html">サービス</a>
+    <a href="../price/index.html">料金</a>
+    <a href="../route/index.html">導線</a>
+    <a href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a>
+  </div>
+</div>
+<div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+  <div class="mobile-drawer-inner">
+    <div class="mobile-drawer-head"><strong>ページメニュー</strong><button class="mobile-drawer-close" type="button" aria-label="閉じる">×</button></div>
+    <div class="mobile-drawer-actions"><a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a><a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINE相談</a></div>
+    <nav class="mobile-drawer-nav">
+      <a href="../index.html">業種トップ</a>
+      <a href="../service/index.html">サービス詳細</a>
+      <a href="../price/index.html">料金・制作範囲</a>
+      <a href="../route/index.html">導線設計</a>
+      <a href="../../index.html">14業種一覧</a>
+    </nav>
+  </div>
+</div>
+<div class="drawer-backdrop"></div>
+<main>
+<section class="lower-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="../../index.html">サンプル一覧</a><span>/</span><a href="../index.html">パーソナルジム</a><span>/</span><span>パーソナルジム向けHP制作｜サービス詳細</span></div>
+    <p class="eyebrow">Lower Page Sample</p>
+    <h1>パーソナルジム向けHP制作｜サービス詳細</h1>
+    <p class="lead">パーソナルジム向けに必要なHP構成・掲載内容・導線を整理したサービス詳細ページです。</p>
+    <div class="actions">
+      <a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断に申し込む</a>
+      <a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINEで相談する</a>
+    </div>
+    <div class="lower-page-nav">
+      <a href="../index.html">業種トップ</a>
+      <a href="../service/index.html">サービス詳細</a>
+      <a href="../price/index.html">料金・制作範囲</a>
+      <a href="../route/index.html">導線設計</a>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="heading"><p class="eyebrow">Service Detail</p><h2>制作で整える内容</h2><p>Before/After、料金プラン、トレーナー紹介、体験予約導線を整理し、入会前の不安を減らします。</p></div>
+    <div class="lower-grid">
+      <article class="lower-card"><h3>対象業種</h3><ul class="lower-list"><li>パーソナルジム</li><li>フィットネススタジオ</li><li>ダイエットジム</li><li>ヨガスタジオ</li></ul></article>
+      <article class="lower-card"><h3>よくある課題</h3><ul class="lower-list"><li>料金プランが分かりにくい</li><li>成果イメージが伝わりにくい</li><li>体験予約導線が弱い</li></ul></article>
+    </div>
+  </div>
+</section>
+<section class="section muted">
+  <div class="container">
+    <div class="heading"><p class="eyebrow">Contents</p><h2>HPに入れるべき主要コンテンツ</h2><p>比較検討中のユーザーが知りたい情報を先回りして整理します。</p></div>
+    <div class="lower-card"><ul class="lower-list"><li>プラン・料金</li><li>Before/After</li><li>トレーナー紹介</li><li>体験の流れ</li><li>LINE相談</li></ul></div>
+  </div>
+</section>
+<section class="section">
+  <div class="container lower-cta-box">
+    <h2>サービス内容を整理すると、問い合わせ前の不安を減らせます。</h2>
+    <p>ただ作るだけではなく、見込み客がどこで迷い、何を確認してから問い合わせるかを設計します。</p>
+    <div class="actions"><a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断へ進む</a></div>
+  </div>
+</section>
+<section class="section final">
+  <div class="container final-box">
+    <div>
+      <p class="eyebrow">Free Diagnosis</p>
+      <h2>パーソナルジム向けの導線を無料診断できます。</h2>
+      <p>HP・SNS・Googleマップ・公式LINE・申込フォームの状態を確認し、改善ポイントを整理します。</p>
+    </div>
+    <div class="final-actions">
+      <a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a>
+      <a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINE相談</a>
+    </div>
+  </div>
+</section>
+</main>
+<div class="fixed-cta"><a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a><a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINE相談</a></div>
+<footer class="footer"><div class="container"><strong>LuQvia Sample</strong><p>パーソナルジム向けHP制作の下層ページサンプル</p></div></footer>
+<script src="../../sample-script.js"></script>
+</body>
+</html>

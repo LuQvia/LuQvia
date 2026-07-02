@@ -1,0 +1,8 @@
+LuQvia upload part 2 of 2
+
+1. Extract this ZIP.
+2. Open the extracted folder.
+3. Upload the samples folder inside it to the root of the same GitHub LuQvia repository.
+4. If GitHub says files already exist, keep/overwrite/commit so samples/assets is added.
+
+Important: This part contains image assets. It must be uploaded after part 1.

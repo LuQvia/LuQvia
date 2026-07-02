@@ -1,15 +1,165 @@
-LuQvia HP アップロード用ファイル
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>工務店・リフォーム会社向けHP制作サンプル｜LuQvia制作サンプル</title><meta name="description" content="工務店・リフォーム会社向けHP制作サンプル。HP・LINE・申込フォーム導線まで作り込んだLuQviaの高品質制作サンプルです。"/>
+<meta property="og:title" content="工務店・リフォーム会社向けHP制作サンプル｜LuQvia制作サンプル"/><meta property="og:description" content="業種別にHP・LINE・フォーム導線を作り込んだ営業用サンプルです。"/><meta property="og:type" content="website"/><meta property="og:image" content="https://YOUR_GITHUB_PAGES_URL/samples/assets/ogp/renovation.jpg"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://YOUR_GITHUB_PAGES_URL/samples/assets/ogp/renovation.jpg"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "工務店・リフォーム会社向けHP制作サンプル", "description": "リフォーム・外壁塗装・水回り工事・店舗改装など、高単価案件の検討に必要な施工事例、対応エリア、料金目安、問い合わせ導線を整理したサンプルです。", "isPartOf": {"@type": "WebSite", "name": "LuQvia Sample Pages"}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Shippori+Mincho:wght@600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="../sample-styles.css"/><link rel="canonical" href="https://YOUR_GITHUB_PAGES_URL/samples/renovation/"/>
+</head>
+<body class="mobile-ui-ready"><header class="header"><div class="container header-inner"><a class="logo" href="../index.html"><span class="logo-mark">L</span><span><strong>LuQvia Sample</strong><small>工務店・リフォーム会社向け</small></span></a><nav class="nav"><a href="#target">設計</a><a href="#problem">課題</a><a href="#contents">内容</a><a href="#route">導線</a><a href="#price">料金</a><a href="#faq">FAQ</a></nav><a class="header-cta" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a><button class="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobileDrawer" aria-label="メニューを開く"><span></span><span></span><span></span></button></div></header>
+<div class="sample-nav"><div class="container"><a href="../beauty-salon/index.html">美容サロン</a><a href="../restaurant/index.html">飲食店</a><a href="../recruit-site/index.html">採用ページ</a><a href="../seitai-clinic/index.html">整体</a><a href="../renovation/index.html">工務店</a><a href="../professional-office/index.html">士業</a><a href="../school/index.html">学習塾</a><a href="../personal-gym/index.html">パーソナルジム</a></div></div>
 
-使い方：
-1. まず all_in_one ZIP を解凍して、中身をGitHub Pagesのリポジトリ直下にアップロードするのが一番簡単です。
-2. 分割で入れる場合は、01から順番に各ZIPを解凍し、中身を同じリポジトリ直下へアップロードしてください。
-3. ZIPファイルそのものをアップロードするのではなく、必ず解凍した中身をアップロードしてください。
-4. index.html がリポジトリ直下にある状態が正解です。
-5. 公開URLが決まったら、YOUR_GITHUB_PAGES_URL を実URLに置換してください。
+<div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+  <div class="mobile-drawer-inner">
+    <div class="mobile-drawer-head">
+      <strong>ページメニュー</strong>
+      <button class="mobile-drawer-close" type="button" aria-label="閉じる">×</button>
+    </div>
+    <div class="mobile-drawer-actions">
+      <a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a>
+      <a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINE相談</a>
+    </div>
+    <nav class="mobile-drawer-nav"><a href="#target">設計</a><a href="#problem">課題</a><a href="#contents">内容</a><a href="#route">導線</a><a href="#price">料金</a><a href="#faq">FAQ</a></nav>
+    <div class="mobile-drawer-links">
+      <a href="../index.html">一覧トップ</a>
+      <a href="../beauty-salon/index.html">美容サロン</a>
+      <a href="../restaurant/index.html">飲食店</a>
+      <a href="../recruit-site/index.html">採用ページ</a>
+      <a href="../seitai-clinic/index.html">整体</a>
+      <a href="../renovation/index.html">工務店</a>
+      <a href="../professional-office/index.html">士業</a>
+      <a href="../school/index.html">学習塾</a>
+      <a href="../personal-gym/index.html">ジム</a>
+    </div>
+  </div>
+</div>
+<div class="drawer-backdrop"></div>
 
-分割ZIPの役割：
-01_root_files：トップページ、CSS、JS、OGP、robots、sitemapなど
-02_service_pages：本体HPのSEO下層ページ
-03_samples_pages：14業種サンプルのHTML、サンプル用CSS/JS
-04_samples_assets：サンプル画像、サムネイル、OGP画像
-05_docs：チェックリスト・説明ファイル
+<div class="mobile-top-cta mobile-only">
+  <div class="container">
+    <div class="mobile-top-cta-box">
+      <a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a>
+      <a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINE相談</a>
+    </div>
+  </div>
+</div>
+<main><section class="hero"><div class="container hero-grid"><div><p class="eyebrow">Renovation Pro Sample</p><h1>施工事例から、<br>無料見積り・現地調査につなげるHP。</h1><p class="lead">リフォーム・外壁塗装・水回り工事・店舗改装など、高単価案件の検討に必要な施工事例、対応エリア、料金目安、問い合わせ導線を整理したサンプルです。</p><p class="notice">LuQviaの制作サンプルです。実在店舗・実在企業の公式サイトではありません。</p><div class="actions"><a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断に申し込む</a><a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINEで相談する</a><a class="btn secondary" href="#route">導線を見る</a></div><div class="tags"><span>工務店HP</span><span>リフォーム</span><span>施工事例</span><span>無料見積り</span><span>地域SEO</span></div><div class="brush-note">営業説明用にブラッシュアップ済み / スマホUI対応</div>
+<div class="sample-meta">
+  <span><strong>業種</strong>住宅/高単価系</span>
+  <span><strong>主な目的</strong>見積相談</span>
+  <span><strong>営業での見せ方</strong>施工事例から無料見積りへつなげる</span>
+</div>
+</div><div class="visual"><div class="browser"><div class="browser-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div><div class="browser-image"><img src="../assets/sample-images/renovation.jpg" alt="LuQvia 工務店・リフォーム サンプル画像" loading="eager" decoding="async"></div></div></div><div class="float"><strong>高単価導線</strong><span>施工事例・料金目安・無料見積りへ</span></div></div></div></section>
+<section class="mobile-summary mobile-only">
+  <div class="container">
+    <div class="mobile-summary-grid">
+      <article><strong>業種別構成</strong><span>課題と必要情報を整理</span></article>
+      <article><strong>導線設計</strong><span>HP・LINE・フォームを接続</span></article>
+      <article><strong>スマホUI</strong><span>見やすく押しやすい設計</span></article>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="mobile-action-band mobile-only">
+  <div class="container">
+    <p>この業種向けのHP・LINE・フォーム導線を無料診断できます。</p>
+    <a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断に申し込む</a>
+  </div>
+</section>
+<section class="section muted" id="sample-visual">
+  <div class="container">
+    <div class="heading">
+      <p class="eyebrow">Sample Visual</p>
+      <h2>サンプルデザイン画像</h2>
+      <p>営業時に見せやすいように、業種別の完成イメージ画像を追加しています。</p>
+    </div>
+    <div class="sample-image-wrap">
+      <img src="../assets/sample-images/renovation.jpg" alt="LuQvia 工務店・リフォーム 制作サンプル画像" loading="lazy" decoding="async">
+      <div class="sample-image-caption">※画像内の文字表現はセルフチェック済みです。実制作時は正式な原稿・写真・料金表に差し替えます。</div>
+    </div>
+  </div>
+</section>
+
+<section class="section muted" id="target"><div class="container split"><div><p class="eyebrow">Strategy</p><h2>このサンプルの設計意図</h2></div><div class="grid2"><article class="persona"><h3>想定ターゲット</h3><p>リフォームを検討中の個人、店舗改装を考える事業者、施工事例や費用感を確認してから相談したい人。</p></article><article class="persona"><h3>このHPで実現すること</h3><p>施工事例、対応工事、対応エリア、料金目安、保証、無料見積りフォームを整え、高単価問い合わせにつなげます。</p></article></div></div></section>
+<section class="section" id="problem"><div class="container"><div class="heading"><p class="eyebrow">Problem</p><h2>この業種で起こりやすいWeb導線の課題</h2><p>ユーザーが申し込む前に必要な情報と、不安を解消する導線を整理します。</p></div><div class="grid3"><article class="card"><span class="num">01</span><h3>入口から申込に進みにくい</h3><p>検索・SNS・Googleマップから来た人の次の行動が分かりにくい状態です。</p></article>
+<article class="card"><span class="num">02</span><h3>料金や内容が分かりにくい</h3><p>問い合わせ前に必要な判断材料が不足しています。</p></article>
+<article class="card"><span class="num">03</span><h3>信頼材料が弱い</h3><p>実績・プロフィール・口コミ・FAQが整理されていません。</p></article>
+<article class="card"><span class="num">04</span><h3>LINEやフォームが活用できていない</h3><p>相談・予約・問い合わせの受け皿が整っていません。</p></article>
+<article class="card"><span class="num">05</span><h3>スマホで見づらい</h3><p>ボタンや文章が押しづらく、離脱につながります。</p></article>
+<article class="card"><span class="num">06</span><h3>公開後の改善導線がない</h3><p>問い合わせ状況を見て改善する前提になっていません。</p></article></div></div></section>
+<section class="section muted" id="contents"><div class="container"><div class="heading"><p class="eyebrow">Contents</p><h2>HPに入れるべき内容</h2><p>営業時に「何を作れるか」「どこまで整えられるか」を説明しやすい構成です。</p></div><div class="grid3"><article class="card"><span class="num">01</span><h3>コンセプト</h3><p>誰向けに何を提供するかを明確に伝えます。</p></article>
+<article class="card"><span class="num">02</span><h3>サービス・料金</h3><p>内容・費用・所要時間・対応範囲を整理します。</p></article>
+<article class="card"><span class="num">03</span><h3>信頼材料</h3><p>実績、プロフィール、口コミ、事例、FAQを掲載します。</p></article>
+<article class="card"><span class="num">04</span><h3>利用の流れ</h3><p>相談から申込・来店・契約までの流れを見せます。</p></article>
+<article class="card"><span class="num">05</span><h3>FAQ</h3><p>申し込み前の不安を先回りして解消します。</p></article>
+<article class="card"><span class="num">06</span><h3>CTA導線</h3><p>LINE、フォーム、電話など目的別に行動先を整理します。</p></article></div></div></section>
+<section class="section"><div class="container"><div class="heading"><p class="eyebrow">Before / After</p><h2>導線改善イメージ</h2></div><div class="beforeafter"><div class="ba before"><h3>改善前</h3><ul><li>情報が散らばっている</li><li>料金や流れが不明確</li><li>問い合わせ先が分かりにくい</li><li>スマホでCTAが弱い</li></ul></div><div class="ba after"><h3>改善後</h3><ul><li>HPで情報を整理</li><li>料金・流れ・FAQを明確化</li><li>LINE/フォームへ自然に誘導</li><li>固定CTAでスマホ導線を強化</li></ul></div></div></div></section>
+<section class="section muted" id="route"><div class="container"><div class="heading"><p class="eyebrow">Route Design</p><h2>理想的な申込・予約・相談導線</h2></div><div class="table"><div class="row head"><div>入口</div><div>ユーザー行動</div><div>つなげる先</div></div><div class="row"><div>検索/SNS</div><div>興味を持って情報確認</div><div>HP</div></div>
+<div class="row"><div>HP</div><div>内容・料金・信頼材料を確認</div><div>LINE / フォーム</div></div>
+<div class="row"><div>LINE</div><div>事前相談・日程確認</div><div>申込</div></div>
+<div class="row"><div>フォーム</div><div>必要情報を送信</div><div>自動返信 / 対応管理</div></div>
+<div class="row"><div>Googleマップ</div><div>場所・口コミを確認</div><div>HP / 電話 / LINE</div></div></div></div></section>
+<section class="section" id="flow"><div class="container"><div class="heading"><p class="eyebrow">Page Structure</p><h2>基本ページ構成</h2></div><div class="flow"><div><span>01</span><h3>ファーストビュー</h3><p>誰向けのサービスかとCTAを見せます。</p></div>
+<div><span>02</span><h3>サービス・料金</h3><p>内容と費用感を整理します。</p></div>
+<div><span>03</span><h3>選ばれる理由</h3><p>比較材料を明確にします。</p></div>
+<div><span>04</span><h3>利用の流れ</h3><p>申し込み前の不安を減らします。</p></div>
+<div><span>05</span><h3>FAQ・信頼材料</h3><p>実績やよくある質問を掲載します。</p></div>
+<div><span>06</span><h3>LINE・フォーム</h3><p>申込導線へ誘導します。</p></div></div></div></section>
+<section class="section muted"><div class="container"><div class="heading"><p class="eyebrow">Conversion</p><h2>申込率を上げるための仕掛け</h2></div><div class="leadbox"><div class="leadbox-grid"><div><h3>初回接点として使える導線</h3><ul><li>無料相談フォーム</li><li>LINE事前相談</li><li>資料請求・体験申込</li></ul></div><div><h3>LuQviaで整えること</h3><ul><li>HP内CTAの配置</li><li>公式LINEリッチメニュー</li><li>申込フォーム項目設計</li><li>送信後の自動返信文面</li><li>Googleマップ・SNSからの受け皿</li></ul></div></div></div></div></section>
+<section class="section" id="price"><div class="container"><div class="heading"><p class="eyebrow">Plans</p><h2>料金目安と制作範囲</h2><p>正式な金額は、制作範囲・素材・フォーム/LINE設定の有無により変動します。</p></div><div class="prices"><article class="price "><p>ライト</p><h3>まずは基本HPを整えたい方向け</h3><strong>150,000円〜</strong><ul><li>トップページ</li><li>サービス説明</li><li>料金</li><li>CTA</li></ul></article>
+<article class="price featured"><p>スタンダード</p><h3>LINE・フォーム導線まで整えたい方向け</h3><strong>300,000円〜</strong><ul><li>HP制作</li><li>公式LINE導線</li><li>申込フォーム</li><li>FAQ</li></ul></article>
+<article class="price "><p>グロース</p><h3>SEO・下層ページまで強化したい方向け</h3><strong>500,000円〜</strong><ul><li>下層ページ</li><li>実績追加</li><li>改善運用</li><li>採用ページ</li></ul></article></div></div></section>
+<section class="section muted"><div class="container"><div class="heading"><p class="eyebrow">Quality Check</p><h2>品質チェック項目</h2></div><div class="checks"><div class="check"><strong>スマホCTA</strong>押しやすい位置に固定</div><div class="check"><strong>FAQ</strong>申込前の不安を解消</div><div class="check"><strong>料金</strong>目安と範囲を明記</div><div class="check"><strong>LINE</strong>相談・予約の入口</div><div class="check"><strong>フォーム</strong>必要情報を取得</div><div class="check"><strong>SEO</strong>見出しと構造を整理</div><div class="check"><strong>信頼感</strong>プロフィールや実績枠</div><div class="check"><strong>導線</strong>入口から申込まで接続</div></div></div></section>
+<section class="section" id="faq"><div class="container"><div class="heading"><p class="eyebrow">FAQ</p><h2>よくある質問</h2></div><div class="faq"><details><summary>LINE導線も作れますか？</summary><p>はい。リッチメニュー、あいさつメッセージ、フォーム誘導まで設計できます。</p></details>
+<details><summary>フォームも作れますか？</summary><p>はい。問い合わせ、予約、応募、資料請求など目的別に設計できます。</p></details>
+<details><summary>写真が少なくても作れますか？</summary><p>初期版は作成可能です。写真や実績が増えたら後から強化できます。</p></details>
+<details><summary>SEOページも追加できますか？</summary><p>可能です。地域別・業種別・サービス別に下層ページを増やせます。</p></details></div></div></section>
+
+<section class="section muted">
+  <div class="container">
+    <div class="heading">
+      <p class="eyebrow">Other Samples</p>
+      <h2>他の業種サンプルも見る</h2>
+      <p>提案先の業種に近いサンプルを使い分けることで、営業時の説明がしやすくなります。</p>
+    </div>
+    <div class="page-links"><a href="../beauty-salon/index.html">美容サロン</a><a href="../restaurant/index.html">飲食店</a><a href="../recruit-site/index.html">採用ページ</a><a href="../seitai-clinic/index.html">整体・接骨院</a><a href="../professional-office/index.html">士業</a><a href="../school/index.html">学習塾</a><a href="../personal-gym/index.html">パーソナルジム</a></div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <div class="heading">
+      <p class="eyebrow">Sales Point</p>
+      <h2>営業時の説明ポイント</h2>
+      <p>このサンプルを見せる際は、単なるデザインではなく「問い合わせ・予約・相談までの導線」を中心に説明します。</p>
+    </div>
+    <div class="sales-script">
+      <ol>
+        <li>まず、現在の集客入口がどこにあるかを確認します。</li>
+        <li>次に、HPで不足している情報と不安要素を整理します。</li>
+        <li>最後に、LINE・フォーム・Googleマップへの導線をどう接続するかを提案します。</li>
+      </ol>
+      <p class="cta-note">この流れで説明すると、HP制作単体ではなく「導線改善」として提案しやすくなります。</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="section muted">
+  <div class="container">
+    <div class="heading">
+      <p class="eyebrow">Lower Pages</p>
+      <h2>下層ページサンプル</h2>
+      <p>工務店・リフォーム向けに、提案時に見せやすい下層ページを追加しています。</p>
+    </div>
+    <div class="grid3">
+      <article class="card"><span class="num">01</span><h3>サービス詳細</h3><p>掲載内容・対象業種・よくある課題を整理。</p><div class="actions"><a class="btn secondary" href="service/index.html">見る</a></div></article>
+      <article class="card"><span class="num">02</span><h3>料金・制作範囲</h3><p>料金目安と制作範囲を説明しやすく整理。</p><div class="actions"><a class="btn secondary" href="price/index.html">見る</a></div></article>
+      <article class="card"><span class="num">03</span><h3>導線設計</h3><p>HP・LINE・フォームをどうつなげるかを説明。</p><div class="actions"><a class="btn secondary" href="route/index.html">見る</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="section final"><div class="container final-box"><div><p class="eyebrow">Free Diagnosis</p><h2>この業種向けの導線を、自社に合わせて診断できます。</h2><p>HP・SNS・Googleマップ・公式LINE・申込フォームの状態を確認し、改善ポイントを整理します。</p></div><div class="final-actions"><a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a><a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINE相談</a></div></div></section></main>
+<div class="fixed-cta"><a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a><a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINE相談</a></div><footer class="footer"><div class="container"><strong>LuQvia Sample</strong><p>HP制作・公式LINE・申込フォーム導線構築の業種別サンプル</p></div></footer><script src="../sample-script.js"></script></body></html>

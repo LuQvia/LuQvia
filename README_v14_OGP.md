@@ -1,112 +1,41 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>士業・専門家向けHP制作｜導線設計・改善ポイント｜LuQvia Sample</title>
-  <meta name="description" content="士業向けにHP・LINE・フォーム・Googleマップをどうつなげるかを整理した導線設計ページです。"/>
-  <meta property="og:title" content="士業・専門家向けHP制作｜導線設計・改善ポイント"/>
-  <meta property="og:description" content="士業向けにHP・LINE・フォーム・Googleマップをどうつなげるかを整理した導線設計ページです。"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:image" content="https://YOUR_GITHUB_PAGES_URL/samples/assets/ogp/professional-office.jpg"/>
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:image" content="https://YOUR_GITHUB_PAGES_URL/samples/assets/ogp/professional-office.jpg"/>
-  <link rel="canonical" href="https://YOUR_GITHUB_PAGES_URL/samples/professional-office/route/"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Shippori+Mincho:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../sample-styles.css"/>
-</head>
-<body class="mobile-ui-ready">
-<header class="header">
-  <div class="container header-inner">
-    <a class="logo" href="../../index.html"><span class="logo-mark">L</span><span><strong>LuQvia Sample</strong><small>士業</small></span></a>
-    <a class="header-cta" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a>
-    <button class="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="mobileDrawer" aria-label="メニューを開く"><span></span><span></span><span></span></button>
-  </div>
-</header>
-<div class="mobile-quicknav mobile-only">
-  <div class="mobile-quicknav-track">
-    <a href="../index.html">業種トップ</a>
-    <a href="../service/index.html">サービス</a>
-    <a href="../price/index.html">料金</a>
-    <a href="../route/index.html">導線</a>
-    <a href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a>
-  </div>
-</div>
-<div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
-  <div class="mobile-drawer-inner">
-    <div class="mobile-drawer-head"><strong>ページメニュー</strong><button class="mobile-drawer-close" type="button" aria-label="閉じる">×</button></div>
-    <div class="mobile-drawer-actions"><a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a><a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINE相談</a></div>
-    <nav class="mobile-drawer-nav">
-      <a href="../index.html">業種トップ</a>
-      <a href="../service/index.html">サービス詳細</a>
-      <a href="../price/index.html">料金・制作範囲</a>
-      <a href="../route/index.html">導線設計</a>
-      <a href="../../index.html">14業種一覧</a>
-    </nav>
-  </div>
-</div>
-<div class="drawer-backdrop"></div>
-<main>
-<section class="lower-hero">
-  <div class="container">
-    <div class="breadcrumb"><a href="../../index.html">サンプル一覧</a><span>/</span><a href="../index.html">士業</a><span>/</span><span>士業・専門家向けHP制作｜導線設計・改善ポイント</span></div>
-    <p class="eyebrow">Lower Page Sample</p>
-    <h1>士業・専門家向けHP制作｜導線設計・改善ポイント</h1>
-    <p class="lead">士業向けにHP・LINE・フォーム・Googleマップをどうつなげるかを整理した導線設計ページです。</p>
-    <div class="actions">
-      <a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断に申し込む</a>
-      <a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINEで相談する</a>
-    </div>
-    <div class="lower-page-nav">
-      <a href="../index.html">業種トップ</a>
-      <a href="../service/index.html">サービス詳細</a>
-      <a href="../price/index.html">料金・制作範囲</a>
-      <a href="../route/index.html">導線設計</a>
-    </div>
-  </div>
-</section>
-<section class="section">
-  <div class="container">
-    <div class="heading"><p class="eyebrow">Route Design</p><h2>導線改善の基本方針</h2><p>見込み客が最初に接触する入口から、問い合わせ・予約・相談まで迷わず進めるように設計します。</p></div>
-    <div class="process-list">
-      <article><h3>入口を整理する</h3><p>Google検索、Googleマップ、Instagram、求人媒体、チラシQRなど、流入元ごとに受け皿を明確にします。</p></article>
-      <article><h3>不安を解消する</h3><p>料金、流れ、FAQ、実績、スタッフ情報など、問い合わせ前に必要な情報を整理します。</p></article>
-      <article><h3>行動先を1つずつ明確にする</h3><p>LINE相談、フォーム、電話、予約サイトなど、目的別にCTAを配置します。</p></article>
-      <article><h3>送信後の対応を設計する</h3><p>自動返信、Slack通知、スプレッドシート管理など、取りこぼしを防ぐ仕組みを整えます。</p></article>
-    </div>
-  </div>
-</section>
-<section class="section muted">
-  <div class="container">
-    <div class="heading"><p class="eyebrow">Improvement</p><h2>改善すべきポイント</h2><p>士業では、以下の不安や導線の弱さを改善することが重要です。</p></div>
-    <article class="lower-card"><ul class="lower-list"><li>何を相談できるか分かりにくい</li><li>料金が不透明で問い合わせ前に不安がある</li><li>専門家の人柄や信頼感が伝わりにくい</li></ul></article>
-  </div>
-</section>
-<section class="section">
-  <div class="container lower-cta-box">
-    <h2>導線を整理すると、HPの役割が明確になります。</h2>
-    <p>デザインだけでなく、どの入口からどの行動へつなげるかまで設計することで、営業提案の価値が高まります。</p>
-    <div class="actions"><a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断へ進む</a></div>
-  </div>
-</section>
-<section class="section final">
-  <div class="container final-box">
-    <div>
-      <p class="eyebrow">Free Diagnosis</p>
-      <h2>士業向けの導線を無料診断できます。</h2>
-      <p>HP・SNS・Googleマップ・公式LINE・申込フォームの状態を確認し、改善ポイントを整理します。</p>
-    </div>
-    <div class="final-actions">
-      <a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a>
-      <a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINE相談</a>
-    </div>
-  </div>
-</section>
-</main>
-<div class="fixed-cta"><a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a><a class="btn line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINE相談</a></div>
-<footer class="footer"><div class="container"><strong>LuQvia Sample</strong><p>士業・専門家向けHP制作の下層ページサンプル</p></div></footer>
-<script src="../../sample-script.js"></script>
-</body>
-</html>
+# LuQvia HP v14 OGP Ready
+
+v13公開前最終版に、正式OGP画像 `ogp.png` を追加した版です。
+
+## 追加内容
+
+- `ogp.png` を追加
+- サイズ：1200px × 630px
+- 各HTMLに `og:image` を追加
+- 各HTMLに `twitter:image` を追加
+
+## OGP画像の内容
+
+- LuQvia
+- 静岡のHP制作・LINE導線構築
+- HPを作るだけで終わらせない
+- 問い合わせ・予約・応募につながる導線まで設計
+- HP → LINE → FORM → 申込
+
+## 公開前に必ず差し替えるURL
+
+現在、HTML・sitemap・robotsには仮URLが入っています。
+
+```text
+https://YOUR_GITHUB_PAGES_URL/
+```
+
+GitHub Pages公開URLが決まったら、実URLへ一括置換してください。
+
+例：
+
+```text
+https://axis-agency.github.io/LuQvia/
+```
+
+## 確認項目
+
+- LINEでURL共有した時に画像が出るか
+- XやFacebookでURL共有した時に画像が出るか
+- OGP画像の文字がスマホでも読めるか
+- 公開URLに置換後、`ogp.png` が直接開けるか

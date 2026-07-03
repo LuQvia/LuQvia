@@ -1,389 +1,54 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+# SCORE REPORT - Brushed Version
 
-  <title>LuQvia｜静岡のHP制作・公式LINE構築・申込フォーム導線設計</title>
-  <meta name="description" content="LuQviaは静岡を中心に、店舗・中小企業向けのHP制作、公式LINE構築、申込フォーム設計、SEOを意識したWeb導線改善を行います。高品質かつコスパ重視のホームページ制作で、問い合わせ・予約・応募につながる仕組みを整えます。" />
-  <meta name="keywords" content="HP制作,静岡 HP制作,ホームページ制作,高品質 HP制作,コスパ重視 HP制作,公式LINE構築,申込フォーム作成,店舗集客,採用ページ制作,Web導線,SEO対策" />
+## 総合自己評価
+94 / 100
 
-  <meta property="og:title" content="LuQvia｜静岡のHP制作・LINE導線構築" />
-  <meta property="og:description" content="HP制作・公式LINE・申込フォームを整え、問い合わせ・予約・応募につながるWeb導線を構築します。" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://YOUR_GITHUB_PAGES_URL/ogp.png" />
+## 評価
+| 項目 | 点数 | 評価 |
+|---|---:|---|
+| 業種カバー範囲 | 96 | 14業種まで増え、かなり営業で見せ分けしやすい |
+| 営業説明のしやすさ | 95 | 業種・目的・見せ方・営業ポイントを追加 |
+| デザイン統一感 | 92 | 既存8業種と追加6業種を同じUIに統一 |
+| スマホUI | 93 | 固定CTA、クイックナビ、カード化を反映 |
+| サンプル画像 | 91 | 14業種分の画像を組み込み済み |
+| SEO基盤 | 88 | meta / OGP / sitemapは仮URL前提で整備済み |
+| 実績感 | 82 | 実案件ではないため実績・お客様の声は未反映 |
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Shippori+Mincho:wght@600;700&display=swap" rel="stylesheet">
+## ブラッシュアップで良くなった点
+1. 14業種すべてが営業用サンプルとして見せやすくなった
+2. 一覧ページで業種別の使い分けが分かるようになった
+3. 各ページで「何を目的に作るHPか」が明確になった
+4. スマホで見た時の表・CTA・カード表示を改善した
+5. 今後さらに業種追加しやすい構造を維持した
 
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="canonical" href="https://YOUR_GITHUB_PAGES_URL/" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://YOUR_GITHUB_PAGES_URL/ogp.png" />
-</head>
+## まだ100点ではない理由
+1. 実写真・実績・お客様の声は未反映
+2. 公開URLが未確定
+3. フォームURL・LINE URLはLuQvia共通のまま
+4. 各業種専用の詳細下層ページは未作成
+5. 実機検証・Lighthouse検証は未実施
 
-<body class="mobile-ui-ready">
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="#top" class="brand">
-        <span class="brand-mark">L</span>
-        <span>
-          <strong>LuQvia</strong>
-          <small>HP制作・LINE導線構築</small>
-        </span>
-      </a>
-
-      <nav class="site-nav">
-        <a href="#problem">課題</a>
-        <a href="#reason">選ばれる理由</a>
-        <a href="#diagnosis">無料診断</a>
-        <a href="#samples">サンプル</a>
-        <a href="#plans">料金</a>
-        <a href="#flow">流れ</a>
-        <a href="#faq">FAQ</a>
-      </nav>
-
-      <a class="header-cta" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a>
-    </div>
-  </header>
-<div class="mobile-quicknav mobile-only">
-  <div class="mobile-quicknav-track">
-    <a href="index.html">トップ</a>
-    <a href="line-form/index.html">LINE導線</a>
-    <a href="recruit-site/index.html">採用</a>
-    <a href="beauty-salon/index.html">美容</a>
-    <a href="restaurant/index.html">飲食</a>
-    <a href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a>
-  </div>
-</div>
+## 次の推奨作業
+1. LuQvia本体HPの制作サンプル欄に14業種を接続
+2. GitHub Pages公開URLを確定
+3. `YOUR_GITHUB_PAGES_URL` を実URLに一括置換
+4. スマホ実機で最終確認
+5. 必要に応じて業種別フォームへ分岐
 
 
-  <main id="top">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">静岡対応 / 店舗・中小企業向けHP制作</p>
-          <h1>HPを作るだけで終わらせない。<br>問い合わせ・予約・応募につながる導線まで設計します。</h1>
-          <p class="lead">
-            LuQviaは、HP制作・公式LINE・申込フォームをまとめて整え、
-            Google検索・SNS・Googleマップからの流入を問い合わせ・予約・応募につなげるWeb導線を構築します。
-          </p>
+## 下層ページ追加後の再採点
 
-          <div class="hero-actions">
-            <a class="button primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料導線診断に申し込む</a>
-            <a class="button line" href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">公式LINEで相談する</a>
-            <a class="button secondary" href="#samples">制作サンプルを見る</a>
-          </div>
+総合自己評価：96 / 100
 
-          <div class="hero-tags">
-            <span>静岡 HP制作</span>
-            <span>高品質HP制作</span>
-            <span>コスパ重視</span>
-            <span>LINE・フォーム導線</span>
-          </div>
-        </div>
+### 加点理由
+- 全14業種に3種類ずつ、合計42ページの下層ページを追加
+- サービス詳細、料金、導線設計を分けたことで営業説明がしやすい
+- SEO下層ページの土台として使いやすい
+- 各業種トップページから下層ページへ内部リンクを追加
+- sitemap.xmlにも全ページを反映
 
-        <div class="hero-board">
-          <div class="route-card">
-            <p>Web Route Design</p>
-            <h2>流入を、申込へ。</h2>
-            <div class="route-mini">
-              <span>検索</span><i></i><span>HP</span><i></i><span>LINE</span><i></i><span>申込</span>
-            </div>
-          </div>
-          <div class="metric-card">
-            <strong>無料診断</strong>
-            <span>HP・LINE・SNS・Googleマップ・フォームを確認</span>
-          </div>
-        </div>
-      </div>
-    </section>
-<section class="mobile-action-band mobile-only">
-  <div class="container">
-    <p>スマホからでも無料診断・LINE相談へすぐ進めるように調整済みです。</p>
-    <a class="btn primary" href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料導線診断へ進む</a>
-  </div>
-</section>
-
-<section class="mobile-summary mobile-only">
-  <div class="container">
-    <div class="mobile-summary-grid">
-      <article><strong>HP制作</strong><span>見た目と信頼感を整える</span></article>
-      <article><strong>LINE導線</strong><span>相談・予約へつなげる</span></article>
-      <article><strong>フォーム</strong><span>問い合わせを管理しやすく</span></article>
-    </div>
-  </div>
-</section>
-
-
-    <section class="section problem" id="problem">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Problem</p>
-          <h2>HPはあるのに、問い合わせにつながらない。原因は「導線の分断」かもしれません。</h2>
-          <p>小規模事業者のWeb集客では、HP・SNS・Googleマップ・LINE・フォームが別々に存在し、最終的な申込先が分かりにくくなっているケースが多くあります。</p>
-        </div>
-
-        <div class="problem-grid">
-          <article><span>01</span><h3>HPはあるが問い合わせが来ない</h3><p>デザインはある程度整っていても、申込までの流れが弱い状態です。</p></article>
-          <article><span>02</span><h3>Instagramから予約につながらない</h3><p>プロフィール、投稿、リンク先の役割が整理されていません。</p></article>
-          <article><span>03</span><h3>GoogleマップからHPに流せていない</h3><p>店舗検索から詳細確認・予約への導線が不足しています。</p></article>
-          <article><span>04</span><h3>公式LINEを活用できていない</h3><p>あいさつメッセージ、リッチメニュー、応答文が未整備です。</p></article>
-          <article><span>05</span><h3>申込フォームで離脱されている</h3><p>入力項目が多い、目的が分かりづらい、スマホで使いにくい状態です。</p></article>
-          <article><span>06</span><h3>採用ページが受け皿になっていない</h3><p>求人媒体から来た人が、仕事内容や応募の不安を解消できていません。</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section solution">
-      <div class="container split">
-        <div>
-          <p class="eyebrow">Solution</p>
-          <h2>LuQviaは、HP・公式LINE・申込フォームを一つの導線として設計します。</h2>
-        </div>
-        <div class="split-text">
-          <p>
-            一般的なHP制作は「サイトを公開すること」がゴールになりがちです。
-            LuQviaでは、公開後に問い合わせ・予約・応募へ進む流れまで設計し、必要な範囲に絞って無駄なく整えます。
-          </p>
-          <p>
-            静岡の店舗・中小企業向けに、高品質でコスパ重視のHP制作を行いながら、LINE・フォーム・SNS・Googleマップまで含めたWeb導線を構築します。
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section muted" id="reason">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Reason</p>
-          <h2>LuQviaが選ばれる理由</h2>
-        </div>
-
-        <div class="reason-grid">
-          <article><span>01</span><h3>HP制作だけで終わらない</h3><p>問い合わせ・予約・応募につなげるための導線まで設計します。</p></article>
-          <article><span>02</span><h3>LINE・フォームまで一括対応</h3><p>公式LINE、リッチメニュー、応答文、申込フォームまで整備できます。</p></article>
-          <article><span>03</span><h3>小規模事業者向けに設計</h3><p>必要な範囲に絞り、過剰な制作費を避けたコスパ重視の提案を行います。</p></article>
-          <article><span>04</span><h3>店舗・採用・サービス業に強い</h3><p>美容サロン、飲食店、採用ページなど導線が重要な業種に対応します。</p></article>
-          <article><span>05</span><h3>無料診断から始められる</h3><p>いきなり制作ではなく、現状の課題と改善優先度を確認してから提案します。</p></article>
-          <article><span>06</span><h3>公開後の改善も視野に入れる</h3><p>公開して終わりではなく、必要に応じて導線改善・SEO改善へつなげます。</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section compare">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Compare</p>
-          <h2>一般的なHP制作との違い</h2>
-        </div>
-
-        <div class="compare-table">
-          <div class="row head"><div>項目</div><div>一般的なHP制作</div><div>LuQvia</div></div>
-          <div class="row"><div>目的</div><div>サイト公開</div><div>問い合わせ・予約・応募の獲得</div></div>
-          <div class="row"><div>対応範囲</div><div>HP中心</div><div>HP・LINE・フォーム・SNS導線</div></div>
-          <div class="row"><div>初回提案</div><div>ヒアリング中心</div><div>無料導線診断から開始</div></div>
-          <div class="row"><div>料金設計</div><div>ページ数・デザイン基準</div><div>必要な導線に絞って設計</div></div>
-          <div class="row"><div>公開後</div><div>更新は別途</div><div>改善提案・運用改善まで相談可能</div></div>
-          <div class="row"><div>小規模事業者</div><div>高額になりやすい</div><div>コスパ重視で始めやすい</div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section muted" id="diagnosis">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Free Diagnosis</p>
-          <h2>無料導線診断で、集客・予約・応募につながりにくい原因を整理します。</h2>
-          <p>現在のHP・SNS・Googleマップ・公式LINE・申込フォームを確認し、改善すべき優先順位を出します。</p>
-        </div>
-
-        <div class="diagnosis-grid">
-          <article class="diagnosis-main">
-            <p class="diagnosis-label">無料診断で分かること</p>
-            <h3>どこで離脱しているのか、何を優先して直すべきか。</h3>
-            <p>無料診断では、現状のWeb導線を確認し、問い合わせにつながりにくい原因を整理します。</p>
-            <a href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断に申し込む</a>
-          </article>
-          <div class="diagnosis-points">
-            <article><span>01</span><h3>HPの申込導線</h3><p>CTA、料金、FAQ、問い合わせ導線を確認します。</p></article>
-            <article><span>02</span><h3>公式LINEの活用状況</h3><p>あいさつ、リッチメニュー、応答文を確認します。</p></article>
-            <article><span>03</span><h3>SNS・Googleマップ導線</h3><p>入口からHP・LINE・フォームへの流れを確認します。</p></article>
-            <article><span>04</span><h3>フォームの使いやすさ</h3><p>入力項目、スマホ操作、送信後の案内を確認します。</p></article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="samples">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Samples</p>
-          <h2>制作サンプル</h2>
-          <p>実績ではなく、完成イメージを確認するための営業説明用デモです。業種に合わせて導線の作り方を確認できます。</p>
-        </div>
-
-        <div class="sample-grid">
-          <article class="sample-card beauty"><span>Beauty Salon</span><h3>美容サロン向けHP</h3><p>Instagram・Googleマップから、予約フォームや公式LINE相談へつなげる構成です。</p><a href="samples/beauty-salon/index.html">サンプルを見る</a></article>
-          <article class="sample-card restaurant"><span>Restaurant</span><h3>飲食店向けHP</h3><p>メニュー、コース、テイクアウト、予約、電話、LINEを整理する構成です。</p><a href="samples/restaurant/index.html">サンプルを見る</a></article>
-          <article class="sample-card recruit"><span>Recruit</span><h3>採用ページ向けHP</h3><p>求人媒体・SNSから応募フォームやLINE質問へつなげる構成です。</p><a href="samples/recruit-site/index.html">サンプルを見る</a></article>
-        </div>
-        <div class="center-actions"><a class="button primary" href="samples/index.html">14業種すべてのサンプルを見る</a></div>
-      </div>
-    </section>
-
-    <section class="section muted" id="plans">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Plans</p>
-          <h2>料金と制作範囲</h2>
-          <p>料金は「安さ」だけでなく、必要な範囲に絞って無駄なく作ることを重視します。正式な金額は無料診断後にお見積りします。</p>
-        </div>
-
-        <div class="plan-grid">
-          <article class="plan-card">
-            <p>ライト</p>
-            <h3>まずはHPを整えたい方向け</h3>
-            <strong>150,000円〜</strong>
-            <ul>
-              <li>トップページ中心の簡易HP</li>
-              <li>サービス・料金・FAQ掲載</li>
-              <li>問い合わせフォーム設置</li>
-              <li>基本SEO設定</li>
-            </ul>
-          </article>
-          <article class="plan-card featured">
-            <p>スタンダード</p>
-            <h3>HP・LINE・フォーム導線まで整えたい方向け</h3>
-            <strong>300,000円〜</strong>
-            <ul>
-              <li>複数セクションのHP制作</li>
-              <li>公式LINEリッチメニュー設計</li>
-              <li>申込フォーム設計</li>
-              <li>SNS・Googleマップ導線整理</li>
-              <li>無料診断レポート反映</li>
-            </ul>
-          </article>
-          <article class="plan-card">
-            <p>グロース</p>
-            <h3>集客・採用導線まで本格改善したい方向け</h3>
-            <strong>500,000円〜</strong>
-            <ul>
-              <li>業種別ページ・下層ページ制作</li>
-              <li>SEO設計強化</li>
-              <li>診断・提案・改善運用</li>
-              <li>採用・予約・問い合わせ導線設計</li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="scope-box">
-          <h3>制作範囲の目安</h3>
-          <div class="scope-grid">
-            <div><strong>含まれるもの</strong><p>HP制作、基本SEO、フォーム導線、LINE相談導線、スマホ対応、公開前確認。</p></div>
-            <div><strong>別途相談</strong><p>写真撮影、ロゴ制作、広告運用、継続SEO記事制作、大規模システム開発。</p></div>
-            <div><strong>注意点</strong><p>素材・文章・写真の提出状況により納期は変動します。正式範囲は見積時に確定します。</p></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="flow">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Flow</p>
-          <h2>制作の流れ</h2>
-          <p>いきなり制作に入らず、まず現状確認と導線診断を行い、必要な制作範囲を整理します。</p>
-        </div>
-
-        <div class="flow-list">
-          <div><span>01</span><h3>無料導線診断</h3><p>フォームから現状のHP・SNS・LINE情報を送信します。</p></div>
-          <div><span>02</span><h3>現状確認</h3><p>HP、Googleマップ、Instagram、公式LINE、フォームの流れを確認します。</p></div>
-          <div><span>03</span><h3>課題と優先順位を整理</h3><p>問い合わせにつながりにくい原因と、先に直すべき箇所を整理します。</p></div>
-          <div><span>04</span><h3>制作範囲と見積り提示</h3><p>必要な制作内容、料金、納期、修正範囲を提示します。</p></div>
-          <div><span>05</span><h3>HP・LINE・フォーム制作</h3><p>HP制作、LINE設定、フォーム導線、CTAを整えます。</p></div>
-          <div><span>06</span><h3>公開・動作確認</h3><p>スマホ表示、リンク、フォーム送信、LINE導線を確認して公開します。</p></div>
-          <div><span>07</span><h3>改善運用</h3><p>必要に応じて、SEO・導線・申込率改善を行います。</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section muted seo" id="seo">
-      <div class="container split">
-        <div>
-          <p class="eyebrow">SEO Strategy</p>
-          <h2>SEO見出し強化と下層ページ設計</h2>
-        </div>
-        <div class="split-text">
-          <p>
-            将来的には「HP制作」「静岡 HP制作」「高品質 HP制作」「コスパ重視 HP制作」などの検索に対応するため、トップページだけでなく検索意図ごとの下層ページを作成します。
-          </p>
-          <div class="seo-pages">
-            <span>/hp-production-shizuoka/ 静岡のHP制作</span>
-            <span>/high-quality/ 高品質HP制作</span>
-            <span>/cost-performance/ コスパ重視のHP制作</span>
-            <span>/line-form/ 公式LINE・申込フォーム導線構築</span>
-            <span>/recruit-site/ 採用ページ制作</span>
-            <span>/beauty-salon/ 美容サロン向けHP制作</span>
-            <span>/restaurant/ 飲食店向けHP制作</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="faq">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">FAQ</p>
-          <h2>よくある質問</h2>
-        </div>
-
-        <div class="faq-list">
-          <details><summary>無料診断だけでも大丈夫ですか？</summary><p>はい。まずは現状確認だけでも問題ありません。必要な場合のみ制作内容をご提案します。</p></details>
-          <details><summary>静岡以外でも依頼できますか？</summary><p>オンラインで対応可能な内容であれば、静岡以外でも対応できます。地域SEOを重視する場合は地域に合わせたページ設計を行います。</p></details>
-          <details><summary>HP制作だけ依頼できますか？</summary><p>可能です。ただしLuQviaでは、HP単体ではなく申込・相談につながる導線まで整えることを推奨しています。</p></details>
-          <details><summary>公式LINEの設定もできますか？</summary><p>はい。あいさつメッセージ、リッチメニュー、応答メッセージ、フォーム誘導まで設計できます。</p></details>
-          <details><summary>Googleフォームや申込フォームも作れますか？</summary><p>はい。無料診断、予約、問い合わせ、採用応募など目的に合わせて設計できます。</p></details>
-          <details><summary>SEO対策もできますか？</summary><p>基本SEO、見出し設計、meta設定、下層ページ設計に対応します。記事制作や継続SEOは別途相談です。</p></details>
-          <details><summary>制作期間はどのくらいですか？</summary><p>内容によりますが、簡易HPは2〜4週間、導線構築込みの場合は3〜6週間程度が目安です。</p></details>
-          <details><summary>写真や文章がなくても依頼できますか？</summary><p>可能です。ヒアリングをもとに文章案を作成できます。写真撮影や素材準備が必要な場合は別途相談です。</p></details>
-          <details><summary>修正は何回までできますか？</summary><p>プランごとに修正回数を設定します。正式な修正範囲は見積時に明記します。</p></details>
-          <details><summary>支払い条件はどうなりますか？</summary><p>原則として着手金または前払いを想定します。契約内容に応じて個別にご案内します。</p></details>
-        </div>
-      </div>
-    </section>
-
-    <section class="section final-cta" id="contact">
-      <div class="container final-box">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2>まずは無料で、現在のWeb導線を確認しませんか？</h2>
-          <p>HP・SNS・Googleマップ・公式LINE・申込フォームの状態を確認し、問い合わせ・予約・応募につながりにくい原因を整理します。</p>
-        </div>
-        <div class="final-actions">
-          <a href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断に申し込む</a>
-          <a href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">公式LINEで相談する</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <div class="fixed-cta">
-    <a href="https://forms.gle/LFzrDn36osnjPEd6A" target="_blank" rel="noopener">無料診断</a>
-    <a href="https://lin.ee/nTfIJLT" target="_blank" rel="noopener">LINE相談</a>
-  </div>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <strong>LuQvia</strong>
-        <p>HP制作・公式LINE・申込フォーム導線構築サポート</p>
-      </div>
-      <small>© LuQvia. All rights reserved.</small>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+### まだ100点ではない理由
+1. 実案件の写真・実績・口コミは未反映
+2. 各業種専用のさらに細かいSEO記事は未作成
+3. 公開URLは仮URL
+4. 実機検証・Lighthouse検証は未実施

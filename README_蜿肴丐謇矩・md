@@ -1,0 +1,21 @@
+# LuQvia v2.0 反映用ファイル
+
+## 主な変更
+- トップページを「外部デジタル担当」ポジションへ再設計
+- Web / SEO・Google / LINE・フォーム / Workspace・GAS・AI の4サービスを明確化
+- 共通ヘッダー・フッターを全ページ更新
+- モバイルメニュー、スクロール演出、アクセシビリティ対応を追加
+- FAQを10項目へ拡充し、FAQPage構造化データを追加
+- 無料導線診断ページ `/diagnosis/` を追加
+- sitemap.xml を全ページから再生成
+- OGP・theme-color・Twitter Cardを補強
+
+## 反映方法
+このフォルダの中身を、現在のGitHub Pages公開リポジトリ直下へ上書きしてください。
+
+## 反映前確認
+- GoogleフォームURL
+- 公式LINE URL
+- info@luqvia.com の受信確認
+- 独自ドメインのCNAME設定
+- 公開後にSearch Consoleでsitemap.xmlを再送信

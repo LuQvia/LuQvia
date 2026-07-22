@@ -24,3 +24,23 @@ if('IntersectionObserver'in window){revealTargets.forEach(el=>el.classList.add('
     emit('lead_cta_click',{cta_type:a.dataset.cta||'unknown',area_name:area?area.content:'',link_url:a.href,page_path:location.pathname});
   });
 })();
+
+// LuQvia Revenue Foundation v3.1
+(function(){
+  function pushEvent(name,params){
+    params=params||{};
+    if(typeof window.gtag==='function') window.gtag('event',name,params);
+    window.dataLayer=window.dataLayer||[];
+    window.dataLayer.push(Object.assign({event:name},params));
+  }
+  var content=document.querySelector('meta[name="luqvia:content_type"]');
+  if(content&&content.content==='article'){
+    pushEvent('article_view',{page_title:document.title,page_path:location.pathname});
+  }
+  if(location.pathname.indexOf('/works/')===0&&location.pathname!=='/works/'){
+    pushEvent('case_study_view',{page_title:document.title,page_path:location.pathname});
+  }
+  if(location.pathname==='/price/'||location.pathname==='/price/index.html'){
+    pushEvent('pricing_view',{page_path:location.pathname});
+  }
+})();

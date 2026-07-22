@@ -1,0 +1,1602 @@
+{
+  "version": "3.0.0",
+  "updated": "2026-07-22",
+  "count": 50,
+  "areas": [
+    {
+      "slug": "nationwide",
+      "name": "全国オンライン対応",
+      "prefecture": "日本全国",
+      "kind": "nationwide",
+      "local_context": "拠点から離れた地域でも、オンライン打ち合わせ、資料共有、メール、公式LINEを使い、地域を問わず制作を進められます。対面を前提にせず、要件整理から公開後の更新まで同じ窓口で完結させます。",
+      "industries": [
+        "全国展開する中小企業",
+        "オンラインサービス",
+        "複数拠点を持つ事業者"
+      ],
+      "challenges": [
+        "地域ごとに案内内容がばらつく",
+        "オンライン相談への入口が分かりにくい",
+        "拠点別の情報更新に時間がかかる"
+      ],
+      "proposals": [
+        "地域・拠点別ページを共通設計で整理",
+        "LINE・フォームを一本化",
+        "更新しやすい運用ルールを設計"
+      ],
+      "parent": null,
+      "admin_name": "全国オンライン対応",
+      "nearby": [],
+      "priority": 0.9,
+      "url": "https://www.luqvia.com/area/nationwide/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/nationwide/index.html"
+    },
+    {
+      "slug": "shizuoka",
+      "name": "静岡県",
+      "prefecture": "静岡県",
+      "kind": "prefecture",
+      "local_context": "東西に長い静岡県では、商圏や顧客の移動範囲が地域によって異なります。県内向けの信頼感と、県外から検索する人にも伝わる情報設計を両立させます。",
+      "industries": [
+        "店舗・美容サービス",
+        "製造業・BtoB企業",
+        "採用を強化したい中小企業"
+      ],
+      "challenges": [
+        "地域名で検索されてもサービス内容が伝わらない",
+        "店舗情報と採用情報が混在する",
+        "スマートフォンで問い合わせ先が見つけにくい"
+      ],
+      "proposals": [
+        "県内エリア別の導線を整理",
+        "事業内容と採用を分けて設計",
+        "Google・LINE・フォームを接続"
+      ],
+      "parent": null,
+      "admin_name": "静岡県",
+      "nearby": [],
+      "priority": 0.9,
+      "url": "https://www.luqvia.com/area/shizuoka/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・事業運営・顧客対応・Web導線整備などを通じて、継続的に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/shizuoka/index.html"
+    },
+    {
+      "slug": "kanagawa",
+      "name": "神奈川県",
+      "prefecture": "神奈川県",
+      "kind": "prefecture",
+      "local_context": "都市部、住宅地、観光地、臨海部など事業環境が幅広い神奈川県では、対象顧客と対応地域を明確にしたページ構成が重要です。",
+      "industries": [
+        "店舗・サービス業",
+        "士業・専門職",
+        "BtoB・採用サイト"
+      ],
+      "challenges": [
+        "競合サイトとの違いが伝わりにくい",
+        "複数地域への対応範囲が曖昧",
+        "実績や強みがトップページだけでは不足"
+      ],
+      "proposals": [
+        "地域別のサービスページを整備",
+        "事例と選ばれる理由を明文化",
+        "相談前のFAQを充実"
+      ],
+      "parent": null,
+      "admin_name": "神奈川県",
+      "nearby": [],
+      "priority": 0.82,
+      "url": "https://www.luqvia.com/area/kanagawa/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/kanagawa/index.html"
+    },
+    {
+      "slug": "chiba",
+      "name": "千葉県",
+      "prefecture": "千葉県",
+      "kind": "prefecture",
+      "local_context": "都市部と郊外、観光・レジャー地域が共存する千葉県では、来店型・訪問型・オンライン型のどの事業かを明確にすることで問い合わせにつながりやすくなります。",
+      "industries": [
+        "地域店舗",
+        "住宅・生活サービス",
+        "観光・レジャー関連"
+      ],
+      "challenges": [
+        "営業地域が伝わらない",
+        "料金と依頼の流れが分かりにくい",
+        "SNSだけで情報が流れてしまう"
+      ],
+      "proposals": [
+        "サービス提供地域を可視化",
+        "料金・流れ・FAQを固定ページ化",
+        "SNSから公式サイトへ誘導"
+      ],
+      "parent": null,
+      "admin_name": "千葉県",
+      "nearby": [],
+      "priority": 0.8,
+      "url": "https://www.luqvia.com/area/chiba/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/chiba/index.html"
+    },
+    {
+      "slug": "tokyo",
+      "name": "東京都",
+      "prefecture": "東京都",
+      "kind": "prefecture",
+      "local_context": "選択肢が多く比較されやすい東京都では、安さだけでなく、対応範囲、専門性、実績、運用体制を短時間で理解できる設計が必要です。",
+      "industries": [
+        "中小企業・スタートアップ",
+        "美容・飲食・店舗",
+        "採用・BtoBサービス"
+      ],
+      "challenges": [
+        "競合との差別化が弱い",
+        "情報量が多く重要なCTAが埋もれる",
+        "採用候補者と顧客の導線が混ざる"
+      ],
+      "proposals": [
+        "ファーストビューで価値を明確化",
+        "目的別にCTAを分離",
+        "事例・料金・FAQを比較しやすく整理"
+      ],
+      "parent": null,
+      "admin_name": "東京都",
+      "nearby": [],
+      "priority": 0.86,
+      "url": "https://www.luqvia.com/area/tokyo/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/tokyo/index.html"
+    },
+    {
+      "slug": "fukuoka",
+      "name": "福岡県",
+      "prefecture": "福岡県",
+      "kind": "prefecture",
+      "local_context": "都市部の商業・サービスと県内各地域の生活密着型ビジネスがある福岡県では、商圏に合わせた地域ページと、予約・問い合わせへの短い導線が有効です。",
+      "industries": [
+        "美容・飲食・店舗",
+        "医療・福祉・生活サービス",
+        "地域企業・個人事業主"
+      ],
+      "challenges": [
+        "Instagramだけでは料金やFAQが整理できない",
+        "地域ごとの対応内容が伝わらない",
+        "電話対応に業務時間を取られる"
+      ],
+      "proposals": [
+        "地域別ページと業種別ページを接続",
+        "予約・相談フォームを最短化",
+        "LINEでの問い合わせを整備"
+      ],
+      "parent": null,
+      "admin_name": "福岡県",
+      "nearby": [],
+      "priority": 0.85,
+      "url": "https://www.luqvia.com/area/fukuoka/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/fukuoka/index.html"
+    },
+    {
+      "slug": "kagoshima",
+      "name": "鹿児島県",
+      "prefecture": "鹿児島県",
+      "kind": "prefecture",
+      "local_context": "店舗運営や予約導線整備の実務経験を生かし、鹿児島県の店舗・サービス事業者が、県内客と県外客の双方へ情報を届けられる構成を提案します。",
+      "industries": [
+        "美容サロン・店舗",
+        "飲食・観光サービス",
+        "地域企業・採用"
+      ],
+      "challenges": [
+        "予約先が複数に分散する",
+        "料金や注意事項がSNS投稿に埋もれる",
+        "県外客向けの情報が不足する"
+      ],
+      "proposals": [
+        "HP・LINE・予約導線を一本化",
+        "料金・FAQ・アクセスを固定表示",
+        "スマートフォン中心で設計"
+      ],
+      "parent": null,
+      "admin_name": "鹿児島県",
+      "nearby": [],
+      "priority": 0.85,
+      "url": "https://www.luqvia.com/area/kagoshima/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、店舗運営・顧客対応・ホームページや予約導線の整備を通じて、実務上の関わりを持つ地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/kagoshima/index.html"
+    },
+    {
+      "slug": "kumamoto",
+      "name": "熊本県",
+      "prefecture": "熊本県",
+      "kind": "prefecture",
+      "local_context": "地域サービスと観光・店舗ビジネスの両方を想定し、事業者の信頼性、対応範囲、問い合わせ方法が明確なホームページを設計します。",
+      "industries": [
+        "地域サービス",
+        "飲食・美容・観光",
+        "建設・住宅関連"
+      ],
+      "challenges": [
+        "紹介以外の新規客を獲得しにくい",
+        "施工・サービス事例を整理できていない",
+        "スマホで会社情報が読みにくい"
+      ],
+      "proposals": [
+        "事例を課題別に掲載",
+        "地域名とサービス名を組み合わせる",
+        "電話・LINE・フォームを選べる設計"
+      ],
+      "parent": null,
+      "admin_name": "熊本県",
+      "nearby": [],
+      "priority": 0.76,
+      "url": "https://www.luqvia.com/area/kumamoto/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/kumamoto/index.html"
+    },
+    {
+      "slug": "nara",
+      "name": "奈良県",
+      "prefecture": "奈良県",
+      "kind": "prefecture",
+      "local_context": "観光客向けの情報と地域住民向けの情報が混在しやすい奈良県では、閲覧者の目的別に入口を分ける設計が効果的です。",
+      "industries": [
+        "観光・宿泊・飲食",
+        "地域店舗",
+        "士業・生活サービス"
+      ],
+      "challenges": [
+        "観光客と地元客で必要情報が異なる",
+        "営業時間やアクセス情報が分散する",
+        "多言語化の優先順位が不明"
+      ],
+      "proposals": [
+        "利用者別の案内を分岐",
+        "アクセス・予約・営業情報を集約",
+        "必要部分から多言語対応"
+      ],
+      "parent": null,
+      "admin_name": "奈良県",
+      "nearby": [],
+      "priority": 0.75,
+      "url": "https://www.luqvia.com/area/nara/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/nara/index.html"
+    },
+    {
+      "slug": "osaka",
+      "name": "大阪府",
+      "prefecture": "大阪府",
+      "kind": "prefecture",
+      "local_context": "競合が多く比較が速い大阪府では、提供価値、価格帯、対応速度、事例を分かりやすく見せ、相談までの迷いを減らすことが重要です。",
+      "industries": [
+        "店舗・飲食・美容",
+        "BtoBサービス",
+        "採用を強化する企業"
+      ],
+      "challenges": [
+        "価格以外の違いが伝わらない",
+        "サービス内容が抽象的",
+        "問い合わせ前の不安が残る"
+      ],
+      "proposals": [
+        "比較される項目を先回りして掲載",
+        "具体的な対応範囲を明記",
+        "事例・FAQ・料金を近くに配置"
+      ],
+      "parent": null,
+      "admin_name": "大阪府",
+      "nearby": [],
+      "priority": 0.84,
+      "url": "https://www.luqvia.com/area/osaka/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/osaka/index.html"
+    },
+    {
+      "slug": "yamanashi",
+      "name": "山梨県",
+      "prefecture": "山梨県",
+      "kind": "prefecture",
+      "local_context": "観光・宿泊、飲食、地域産品、生活サービスなど、来訪者向けと地域客向けの両方を意識した情報設計を行います。",
+      "industries": [
+        "宿泊・観光・飲食",
+        "地域産品・EC",
+        "生活サービス"
+      ],
+      "challenges": [
+        "季節情報の更新が追いつかない",
+        "予約・購入先が分かりにくい",
+        "写真はあるが説明が不足する"
+      ],
+      "proposals": [
+        "更新しやすい季節案内を設計",
+        "予約・購入CTAを統一",
+        "写真と利用情報をセットで掲載"
+      ],
+      "parent": null,
+      "admin_name": "山梨県",
+      "nearby": [],
+      "priority": 0.73,
+      "url": "https://www.luqvia.com/area/yamanashi/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/yamanashi/index.html"
+    },
+    {
+      "slug": "saitama",
+      "name": "埼玉県",
+      "prefecture": "埼玉県",
+      "kind": "prefecture",
+      "local_context": "住宅地と商業地が広がる埼玉県では、訪問可能範囲、サービス対象、料金目安を具体化し、近隣事業者との違いを伝えることが重要です。",
+      "industries": [
+        "住宅・生活サービス",
+        "地域店舗",
+        "採用・中小企業"
+      ],
+      "challenges": [
+        "対応エリアが曖昧",
+        "料金が問い合わせるまで不明",
+        "求人情報が外部媒体だけに依存"
+      ],
+      "proposals": [
+        "市区町村別の対応範囲を掲載",
+        "料金例と追加費用を明記",
+        "採用専用ページを整備"
+      ],
+      "parent": null,
+      "admin_name": "埼玉県",
+      "nearby": [],
+      "priority": 0.78,
+      "url": "https://www.luqvia.com/area/saitama/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/saitama/index.html"
+    },
+    {
+      "slug": "ibaraki",
+      "name": "茨城県",
+      "prefecture": "茨城県",
+      "kind": "prefecture",
+      "local_context": "製造・建設などのBtoB事業と地域サービスを想定し、技術・対応力・採用情報を具体的に伝える構成を提案します。",
+      "industries": [
+        "製造・建設・設備",
+        "地域サービス",
+        "採用サイト"
+      ],
+      "challenges": [
+        "専門技術が一般の人に伝わりにくい",
+        "施工・製品情報がPDFだけに偏る",
+        "採用情報が更新されていない"
+      ],
+      "proposals": [
+        "技術を用途別に説明",
+        "事例・設備・対応範囲をWeb化",
+        "仕事内容と職場情報を整理"
+      ],
+      "parent": null,
+      "admin_name": "茨城県",
+      "nearby": [],
+      "priority": 0.72,
+      "url": "https://www.luqvia.com/area/ibaraki/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/ibaraki/index.html"
+    },
+    {
+      "slug": "gunma",
+      "name": "群馬県",
+      "prefecture": "群馬県",
+      "kind": "prefecture",
+      "local_context": "製造業、地域店舗、観光・宿泊など、事業ごとに異なる検索意図へ対応し、問い合わせ先を迷わせないサイトを設計します。",
+      "industries": [
+        "製造・自動車関連",
+        "観光・宿泊",
+        "地域店舗"
+      ],
+      "challenges": [
+        "BtoBと一般向け情報が混在する",
+        "施設の魅力が写真だけに頼る",
+        "問い合わせ方法が電話のみ"
+      ],
+      "proposals": [
+        "顧客別にページを分ける",
+        "利用シーンと料金を明記",
+        "フォーム・LINEを追加"
+      ],
+      "parent": null,
+      "admin_name": "群馬県",
+      "nearby": [],
+      "priority": 0.72,
+      "url": "https://www.luqvia.com/area/gunma/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/gunma/index.html"
+    },
+    {
+      "slug": "tochigi",
+      "name": "栃木県",
+      "prefecture": "栃木県",
+      "kind": "prefecture",
+      "local_context": "観光・飲食・地域サービスと製造系企業を想定し、目的の異なる閲覧者が必要情報へ短く到達できる構成を作ります。",
+      "industries": [
+        "観光・飲食",
+        "製造・BtoB",
+        "地域サービス"
+      ],
+      "challenges": [
+        "観光案内と事業案内が混ざる",
+        "製品・サービスの対象者が不明",
+        "スマホで表が読みにくい"
+      ],
+      "proposals": [
+        "目的別ナビゲーションを設置",
+        "対象者・用途・導入例を明記",
+        "スマホ向けに料金表を再設計"
+      ],
+      "parent": null,
+      "admin_name": "栃木県",
+      "nearby": [],
+      "priority": 0.72,
+      "url": "https://www.luqvia.com/area/tochigi/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/tochigi/index.html"
+    },
+    {
+      "slug": "aichi",
+      "name": "愛知県",
+      "prefecture": "愛知県",
+      "kind": "prefecture",
+      "local_context": "製造・自動車関連のBtoB企業から店舗・サービス業まで、専門性と問い合わせのしやすさを両立するホームページを提案します。",
+      "industries": [
+        "製造・自動車関連",
+        "BtoBサービス",
+        "店舗・採用"
+      ],
+      "challenges": [
+        "技術情報が専門用語中心",
+        "取引開始までの流れが不明",
+        "採用情報が会社案内に埋もれる"
+      ],
+      "proposals": [
+        "課題・用途別に技術を説明",
+        "問い合わせ前の確認項目を掲載",
+        "採用導線を独立"
+      ],
+      "parent": null,
+      "admin_name": "愛知県",
+      "nearby": [],
+      "priority": 0.84,
+      "url": "https://www.luqvia.com/area/aichi/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/aichi/index.html"
+    },
+    {
+      "slug": "gifu",
+      "name": "岐阜県",
+      "prefecture": "岐阜県",
+      "kind": "prefecture",
+      "local_context": "製造、観光、地域産品、店舗などの特徴を、写真だけでなく利用者が判断できる具体情報へ変換します。",
+      "industries": [
+        "製造・ものづくり",
+        "観光・地域産品",
+        "店舗・サービス"
+      ],
+      "challenges": [
+        "魅力が抽象的な表現に偏る",
+        "ECや予約への導線が弱い",
+        "更新担当者が決まっていない"
+      ],
+      "proposals": [
+        "仕様・用途・事例を整理",
+        "購入・予約CTAを固定",
+        "更新ルールを簡素化"
+      ],
+      "parent": null,
+      "admin_name": "岐阜県",
+      "nearby": [],
+      "priority": 0.72,
+      "url": "https://www.luqvia.com/area/gifu/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/gifu/index.html"
+    },
+    {
+      "slug": "mie",
+      "name": "三重県",
+      "prefecture": "三重県",
+      "kind": "prefecture",
+      "local_context": "観光・飲食・地域サービスと製造業を想定し、県内客・県外客・取引先ごとに必要情報を分けて提示します。",
+      "industries": [
+        "観光・飲食",
+        "製造・BtoB",
+        "地域サービス"
+      ],
+      "challenges": [
+        "顧客層ごとの情報が混在する",
+        "アクセス・予約情報が古い",
+        "実績の見せ方が統一されていない"
+      ],
+      "proposals": [
+        "閲覧者別の入口を設置",
+        "基本情報を一元管理",
+        "事例フォーマットを統一"
+      ],
+      "parent": null,
+      "admin_name": "三重県",
+      "nearby": [],
+      "priority": 0.72,
+      "url": "https://www.luqvia.com/area/mie/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/mie/index.html"
+    },
+    {
+      "slug": "hyogo",
+      "name": "兵庫県",
+      "prefecture": "兵庫県",
+      "kind": "prefecture",
+      "local_context": "都市部、住宅地、観光地、地域産業が幅広い兵庫県では、商圏と顧客層を明確にし、地域ごとの強みを分かりやすく見せます。",
+      "industries": [
+        "都市型店舗・サービス",
+        "観光・飲食",
+        "製造・地域企業"
+      ],
+      "challenges": [
+        "広い対応範囲が逆に分かりにくい",
+        "店舗ごとに情報品質が異なる",
+        "会社とブランドの関係が伝わらない"
+      ],
+      "proposals": [
+        "地域・店舗別にページを整理",
+        "共通情報を一元管理",
+        "会社情報とサービスブランドを接続"
+      ],
+      "parent": null,
+      "admin_name": "兵庫県",
+      "nearby": [],
+      "priority": 0.78,
+      "url": "https://www.luqvia.com/area/hyogo/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/hyogo/index.html"
+    },
+    {
+      "slug": "hiroshima",
+      "name": "広島県",
+      "prefecture": "広島県",
+      "kind": "prefecture",
+      "local_context": "製造、観光、飲食、地域企業を想定し、県内外の顧客へ信頼性と具体的なサービス内容を伝える構成を作ります。",
+      "industries": [
+        "製造・BtoB",
+        "観光・飲食",
+        "中小企業・採用"
+      ],
+      "challenges": [
+        "会社の強みが沿革中心になっている",
+        "サービスページが不足する",
+        "採用候補者向け情報が少ない"
+      ],
+      "proposals": [
+        "顧客課題を起点に構成",
+        "サービス別ページを追加",
+        "社員・仕事・制度を採用ページに集約"
+      ],
+      "parent": null,
+      "admin_name": "広島県",
+      "nearby": [],
+      "priority": 0.75,
+      "url": "https://www.luqvia.com/area/hiroshima/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/hiroshima/index.html"
+    },
+    {
+      "slug": "shizuoka/hamamatsu",
+      "name": "浜松市",
+      "prefecture": "静岡県",
+      "kind": "city",
+      "local_context": "ものづくり企業、店舗、専門サービスなど幅広い事業者を想定し、技術・サービスの内容と問い合わせ導線を分かりやすく整えます。",
+      "industries": [
+        "製造・BtoB企業",
+        "美容・飲食・店舗",
+        "採用を強化する企業"
+      ],
+      "challenges": [
+        "専門性がトップページで伝わらない",
+        "店舗予約と法人問い合わせが混在する",
+        "採用情報が求人媒体だけにある"
+      ],
+      "proposals": [
+        "技術・サービス別ページを作成",
+        "顧客別CTAを分離",
+        "自社採用ページを整備"
+      ],
+      "parent": "shizuoka",
+      "admin_name": "浜松市",
+      "nearby": [
+        "shizuoka/iwata",
+        "shizuoka/kosai",
+        "aichi/toyohashi"
+      ],
+      "priority": 0.9,
+      "url": "https://www.luqvia.com/area/shizuoka/hamamatsu/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・事業運営・顧客対応・Web導線整備などを通じて、継続的に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/shizuoka/hamamatsu/index.html"
+    },
+    {
+      "slug": "shizuoka/shizuoka-city",
+      "name": "静岡市",
+      "prefecture": "静岡県",
+      "kind": "city",
+      "local_context": "行政・商業・生活サービスが集まる静岡市では、地域での信頼感と、サービス内容を比較しやすい情報設計を重視します。",
+      "industries": [
+        "士業・専門サービス",
+        "美容・飲食・店舗",
+        "中小企業・採用"
+      ],
+      "challenges": [
+        "会社名検索以外で見つかりにくい",
+        "サービスごとの違いが曖昧",
+        "問い合わせ先が複数ある"
+      ],
+      "proposals": [
+        "地域名とサービス名のページを整備",
+        "料金・対応範囲を明記",
+        "窓口を分かりやすく統一"
+      ],
+      "parent": "shizuoka",
+      "admin_name": "静岡市",
+      "nearby": [
+        "shizuoka/hamamatsu"
+      ],
+      "priority": 0.86,
+      "url": "https://www.luqvia.com/area/shizuoka/shizuoka-city/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・事業運営・顧客対応・Web導線整備などを通じて、継続的に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/shizuoka/shizuoka-city/index.html"
+    },
+    {
+      "slug": "shizuoka/iwata",
+      "name": "磐田市",
+      "prefecture": "静岡県",
+      "kind": "city",
+      "local_context": "製造・生活サービス・地域店舗を想定し、事業の専門性と地域での相談しやすさが両立するサイトを作ります。",
+      "industries": [
+        "製造・設備関連",
+        "住宅・生活サービス",
+        "地域店舗"
+      ],
+      "challenges": [
+        "対応できる仕事の範囲が不明",
+        "実績が口頭紹介に依存",
+        "スマホで連絡先が見つけにくい"
+      ],
+      "proposals": [
+        "対応業務を用途別に整理",
+        "写真付き事例を蓄積",
+        "固定CTAを設置"
+      ],
+      "parent": "shizuoka",
+      "admin_name": "磐田市",
+      "nearby": [
+        "shizuoka/hamamatsu"
+      ],
+      "priority": 0.8,
+      "url": "https://www.luqvia.com/area/shizuoka/iwata/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・事業運営・顧客対応・Web導線整備などを通じて、継続的に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/shizuoka/iwata/index.html"
+    },
+    {
+      "slug": "shizuoka/kosai",
+      "name": "湖西市",
+      "prefecture": "静岡県",
+      "kind": "city",
+      "local_context": "製造関連企業と地域サービスを想定し、取引先向け情報、採用情報、一般向け情報を混在させない設計を行います。",
+      "industries": [
+        "製造・BtoB",
+        "採用サイト",
+        "地域サービス"
+      ],
+      "challenges": [
+        "取引先向けと求職者向け情報が混在",
+        "設備や対応力が伝わらない",
+        "更新が担当者依存"
+      ],
+      "proposals": [
+        "目的別にナビを分離",
+        "設備・品質・事例を整理",
+        "更新手順を定型化"
+      ],
+      "parent": "shizuoka",
+      "admin_name": "湖西市",
+      "nearby": [
+        "shizuoka/hamamatsu",
+        "aichi/toyohashi"
+      ],
+      "priority": 0.76,
+      "url": "https://www.luqvia.com/area/shizuoka/kosai/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・事業運営・顧客対応・Web導線整備などを通じて、継続的に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/shizuoka/kosai/index.html"
+    },
+    {
+      "slug": "aichi/toyohashi",
+      "name": "豊橋市",
+      "prefecture": "愛知県",
+      "kind": "city",
+      "local_context": "東三河の地域企業、店舗、農業・製造関連事業を想定し、地域客と取引先の双方へ伝わる情報を整理します。",
+      "industries": [
+        "製造・農業関連",
+        "店舗・生活サービス",
+        "採用サイト"
+      ],
+      "challenges": [
+        "事業内容が複数あり説明が難しい",
+        "商品・サービスの問い合わせ先が違う",
+        "地域採用の情報が不足"
+      ],
+      "proposals": [
+        "事業ごとの入口を作る",
+        "問い合わせ種別をフォームで分岐",
+        "地域で働く魅力を掲載"
+      ],
+      "parent": "aichi",
+      "admin_name": "豊橋市",
+      "nearby": [
+        "shizuoka/hamamatsu",
+        "shizuoka/kosai"
+      ],
+      "priority": 0.8,
+      "url": "https://www.luqvia.com/area/aichi/toyohashi/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/aichi/toyohashi/index.html"
+    },
+    {
+      "slug": "kanagawa/yokohama",
+      "name": "横浜市",
+      "prefecture": "神奈川県",
+      "kind": "city",
+      "local_context": "多様な業種と広い商圏を持つ横浜市では、対象エリアと顧客像を明確にし、競合との違いを短時間で理解できるページを作ります。",
+      "industries": [
+        "店舗・美容・飲食",
+        "士業・BtoBサービス",
+        "採用サイト"
+      ],
+      "challenges": [
+        "サービスの対象者が広すぎる",
+        "事例が業種別に探せない",
+        "問い合わせ前の比較材料が不足"
+      ],
+      "proposals": [
+        "業種別ランディングページを作成",
+        "事例に課題と成果を追加",
+        "料金・対応範囲・FAQを近接配置"
+      ],
+      "parent": "kanagawa",
+      "admin_name": "横浜市",
+      "nearby": [
+        "kanagawa/kawasaki",
+        "tokyo/shibuya"
+      ],
+      "priority": 0.84,
+      "url": "https://www.luqvia.com/area/kanagawa/yokohama/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/kanagawa/yokohama/index.html"
+    },
+    {
+      "slug": "kanagawa/kawasaki",
+      "name": "川崎市",
+      "prefecture": "神奈川県",
+      "kind": "city",
+      "local_context": "都市型サービスと製造・BtoB企業の双方を想定し、顧客向け・取引先向け・採用向けの情報を分けて設計します。",
+      "industries": [
+        "製造・BtoB",
+        "店舗・サービス業",
+        "採用サイト"
+      ],
+      "challenges": [
+        "顧客ごとに必要情報が違う",
+        "会社の技術力が抽象的",
+        "採用ページが外部求人へのリンクだけ"
+      ],
+      "proposals": [
+        "閲覧者別に入口を設置",
+        "技術・品質・事例を具体化",
+        "自社採用コンテンツを追加"
+      ],
+      "parent": "kanagawa",
+      "admin_name": "川崎市",
+      "nearby": [
+        "kanagawa/yokohama",
+        "tokyo/shibuya"
+      ],
+      "priority": 0.82,
+      "url": "https://www.luqvia.com/area/kanagawa/kawasaki/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/kanagawa/kawasaki/index.html"
+    },
+    {
+      "slug": "tokyo/shibuya",
+      "name": "渋谷区",
+      "prefecture": "東京都",
+      "kind": "ward",
+      "local_context": "比較の速い渋谷区では、ブランドの印象だけでなく、誰のどんな課題を解決できるかを明確にし、問い合わせまでの距離を短くします。",
+      "industries": [
+        "クリエイティブ・IT",
+        "美容・店舗",
+        "スタートアップ・採用"
+      ],
+      "challenges": [
+        "デザインは良いがサービスが伝わらない",
+        "CTAが多く迷う",
+        "実績が画像だけで説明不足"
+      ],
+      "proposals": [
+        "課題と提供価値を冒頭で明示",
+        "主CTAを一つに絞る",
+        "事例に担当範囲と結果を追加"
+      ],
+      "parent": "tokyo",
+      "admin_name": "東京都渋谷区",
+      "nearby": [
+        "tokyo/ikebukuro",
+        "kanagawa/yokohama"
+      ],
+      "priority": 0.84,
+      "url": "https://www.luqvia.com/area/tokyo/shibuya/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/tokyo/shibuya/index.html"
+    },
+    {
+      "slug": "tokyo/ikebukuro",
+      "name": "池袋",
+      "prefecture": "東京都",
+      "kind": "district",
+      "local_context": "池袋周辺の店舗・サービス業では、駅周辺の来店客と地域住民の双方を意識し、料金、アクセス、予約方法をすぐ確認できる設計が有効です。",
+      "industries": [
+        "美容・飲食・店舗",
+        "スクール・教室",
+        "地域サービス"
+      ],
+      "challenges": [
+        "SNSでは基本情報が探しにくい",
+        "予約方法が複数ある",
+        "店舗の違いが伝わりにくい"
+      ],
+      "proposals": [
+        "料金・アクセス・予約を固定表示",
+        "予約導線を一本化",
+        "特徴と対象者を明文化"
+      ],
+      "parent": "tokyo",
+      "admin_name": "東京都豊島区池袋周辺",
+      "nearby": [
+        "tokyo/shibuya",
+        "saitama"
+      ],
+      "priority": 0.78,
+      "url": "https://www.luqvia.com/area/tokyo/ikebukuro/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/tokyo/ikebukuro/index.html"
+    },
+    {
+      "slug": "tokyo/ome",
+      "name": "青梅市",
+      "prefecture": "東京都",
+      "kind": "city",
+      "local_context": "地域密着型サービス、観光・レジャー、住宅関連事業を想定し、対応範囲と利用の流れが伝わるサイトを設計します。",
+      "industries": [
+        "地域サービス",
+        "観光・レジャー",
+        "住宅・建設関連"
+      ],
+      "challenges": [
+        "訪問可能エリアが不明",
+        "サービス利用の流れが見えない",
+        "季節情報の更新が遅れる"
+      ],
+      "proposals": [
+        "対応地域を地図と文章で整理",
+        "申込から完了までを図解",
+        "季節ページを更新しやすく設計"
+      ],
+      "parent": "tokyo",
+      "admin_name": "青梅市",
+      "nearby": [
+        "tokyo/hachioji",
+        "tokyo/tama"
+      ],
+      "priority": 0.7,
+      "url": "https://www.luqvia.com/area/tokyo/ome/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/tokyo/ome/index.html"
+    },
+    {
+      "slug": "tokyo/tama",
+      "name": "多摩市",
+      "prefecture": "東京都",
+      "kind": "city",
+      "local_context": "住宅地の生活サービス、医療・福祉、教室・店舗などを想定し、安心材料と問い合わせ方法を丁寧に提示します。",
+      "industries": [
+        "医療・福祉・生活サービス",
+        "スクール・教室",
+        "地域店舗"
+      ],
+      "challenges": [
+        "サービス内容が専門用語中心",
+        "初回利用の不安が残る",
+        "営業時間外の問い合わせを逃す"
+      ],
+      "proposals": [
+        "初めての方向けページを作成",
+        "スタッフ・安全・対応範囲を掲載",
+        "24時間受付フォームを用意"
+      ],
+      "parent": "tokyo",
+      "admin_name": "多摩市",
+      "nearby": [
+        "tokyo/hachioji",
+        "tokyo/ome"
+      ],
+      "priority": 0.72,
+      "url": "https://www.luqvia.com/area/tokyo/tama/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/tokyo/tama/index.html"
+    },
+    {
+      "slug": "tokyo/hachioji",
+      "name": "八王子市",
+      "prefecture": "東京都",
+      "kind": "city",
+      "local_context": "広い市域で活動する地域企業や店舗を想定し、訪問範囲、拠点、サービス別の対応内容を具体化します。",
+      "industries": [
+        "地域企業・BtoB",
+        "住宅・生活サービス",
+        "店舗・採用"
+      ],
+      "challenges": [
+        "対応エリアが広く説明しにくい",
+        "複数サービスの優先順位が不明",
+        "求人情報が古い"
+      ],
+      "proposals": [
+        "エリアとサービスの組合せを整理",
+        "主力サービスを中心に階層化",
+        "採用情報の更新欄を作る"
+      ],
+      "parent": "tokyo",
+      "admin_name": "八王子市",
+      "nearby": [
+        "tokyo/tama",
+        "tokyo/ome",
+        "yamanashi"
+      ],
+      "priority": 0.76,
+      "url": "https://www.luqvia.com/area/tokyo/hachioji/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/tokyo/hachioji/index.html"
+    },
+    {
+      "slug": "chiba/chiba-city",
+      "name": "千葉市",
+      "prefecture": "千葉県",
+      "kind": "city",
+      "local_context": "行政・商業・住宅地が広がる千葉市では、対象顧客と営業地域を明確にし、地域検索から相談へつなげます。",
+      "industries": [
+        "士業・中小企業",
+        "店舗・生活サービス",
+        "採用サイト"
+      ],
+      "challenges": [
+        "地域名検索で競合に埋もれる",
+        "サービス内容が一ページに詰まりすぎる",
+        "問い合わせフォームが長い"
+      ],
+      "proposals": [
+        "区・業種を意識したページ設計",
+        "サービス別に情報を分割",
+        "フォーム項目を必要最小限に"
+      ],
+      "parent": "chiba",
+      "admin_name": "千葉市",
+      "nearby": [
+        "chiba/funabashi",
+        "chiba/yachiyo"
+      ],
+      "priority": 0.8,
+      "url": "https://www.luqvia.com/area/chiba/chiba-city/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/chiba/chiba-city/index.html"
+    },
+    {
+      "slug": "chiba/matsudo",
+      "name": "松戸市",
+      "prefecture": "千葉県",
+      "kind": "city",
+      "local_context": "住宅地の生活サービス、店舗、医療・福祉などを想定し、地域の利用者が比較しやすい料金・対応範囲・安心材料を整えます。",
+      "industries": [
+        "医療・福祉・生活サービス",
+        "店舗・美容",
+        "住宅関連"
+      ],
+      "challenges": [
+        "初回利用の流れが不明",
+        "料金の追加条件が分かりにくい",
+        "スタッフ情報が不足"
+      ],
+      "proposals": [
+        "初回利用ページを追加",
+        "料金例と追加費用を明記",
+        "担当者・安全対策を掲載"
+      ],
+      "parent": "chiba",
+      "admin_name": "松戸市",
+      "nearby": [
+        "chiba/kashiwa",
+        "chiba/nagareyama",
+        "tokyo"
+      ],
+      "priority": 0.76,
+      "url": "https://www.luqvia.com/area/chiba/matsudo/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/chiba/matsudo/index.html"
+    },
+    {
+      "slug": "chiba/kashiwa",
+      "name": "柏市",
+      "prefecture": "千葉県",
+      "kind": "city",
+      "local_context": "商業・店舗と地域企業を想定し、来店前に必要な情報と、法人向けの信頼情報を分けて提示します。",
+      "industries": [
+        "店舗・美容・飲食",
+        "地域企業・BtoB",
+        "スクール・採用"
+      ],
+      "challenges": [
+        "店舗情報と会社情報が混在",
+        "SNSの情報が古くなる",
+        "法人問い合わせの入口がない"
+      ],
+      "proposals": [
+        "店舗用と法人用の導線を分ける",
+        "公式サイトを情報の基準にする",
+        "法人専用フォームを設置"
+      ],
+      "parent": "chiba",
+      "admin_name": "柏市",
+      "nearby": [
+        "chiba/matsudo",
+        "chiba/nagareyama",
+        "chiba/abiko"
+      ],
+      "priority": 0.8,
+      "url": "https://www.luqvia.com/area/chiba/kashiwa/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/chiba/kashiwa/index.html"
+    },
+    {
+      "slug": "chiba/nagareyama",
+      "name": "流山市",
+      "prefecture": "千葉県",
+      "kind": "city",
+      "local_context": "子育て世帯や地域住民向けの生活サービス、教室、店舗を想定し、スマートフォンで素早く判断できる構成を作ります。",
+      "industries": [
+        "教育・スクール",
+        "医療・福祉",
+        "地域店舗・生活サービス"
+      ],
+      "challenges": [
+        "対象年齢や利用条件が分かりにくい",
+        "申込方法が電話に偏る",
+        "よくある質問が整理されていない"
+      ],
+      "proposals": [
+        "対象者・時間・料金を表で整理",
+        "フォーム・LINE申込を追加",
+        "FAQを利用前の不安順に配置"
+      ],
+      "parent": "chiba",
+      "admin_name": "流山市",
+      "nearby": [
+        "chiba/kashiwa",
+        "chiba/matsudo"
+      ],
+      "priority": 0.75,
+      "url": "https://www.luqvia.com/area/chiba/nagareyama/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/chiba/nagareyama/index.html"
+    },
+    {
+      "slug": "chiba/abiko",
+      "name": "我孫子市",
+      "prefecture": "千葉県",
+      "kind": "city",
+      "local_context": "地域密着型の店舗、医療・福祉、住宅・生活サービスを想定し、信頼性と対応地域を丁寧に伝えます。",
+      "industries": [
+        "医療・福祉",
+        "住宅・生活サービス",
+        "地域店舗"
+      ],
+      "challenges": [
+        "口コミ以外の判断材料が少ない",
+        "訪問対応地域が不明",
+        "問い合わせ後の流れが分からない"
+      ],
+      "proposals": [
+        "資格・体制・事例を掲載",
+        "対応地域を具体化",
+        "受付後の流れを図解"
+      ],
+      "parent": "chiba",
+      "admin_name": "我孫子市",
+      "nearby": [
+        "chiba/kashiwa"
+      ],
+      "priority": 0.7,
+      "url": "https://www.luqvia.com/area/chiba/abiko/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/chiba/abiko/index.html"
+    },
+    {
+      "slug": "chiba/yachiyo",
+      "name": "八千代市",
+      "prefecture": "千葉県",
+      "kind": "city",
+      "local_context": "住宅地の生活サービス、店舗、教室などを想定し、地域客が料金・場所・予約状況を迷わず確認できるサイトを設計します。",
+      "industries": [
+        "生活サービス",
+        "美容・店舗",
+        "スクール・教室"
+      ],
+      "challenges": [
+        "料金表が画像で読みにくい",
+        "予約先が外部サービスごとに違う",
+        "アクセス情報が不足"
+      ],
+      "proposals": [
+        "HTMLの料金表へ変更",
+        "予約導線を整理",
+        "駐車場・交通案内を掲載"
+      ],
+      "parent": "chiba",
+      "admin_name": "八千代市",
+      "nearby": [
+        "chiba/chiba-city",
+        "chiba/funabashi"
+      ],
+      "priority": 0.72,
+      "url": "https://www.luqvia.com/area/chiba/yachiyo/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/chiba/yachiyo/index.html"
+    },
+    {
+      "slug": "chiba/urayasu",
+      "name": "浦安市",
+      "prefecture": "千葉県",
+      "kind": "city",
+      "local_context": "来訪者向けサービスと地域住民向けサービスを想定し、対象者ごとに必要な情報を分けて案内します。",
+      "industries": [
+        "宿泊・観光関連",
+        "飲食・店舗",
+        "地域生活サービス"
+      ],
+      "challenges": [
+        "来訪者と地域客の情報が混在",
+        "アクセス・営業時間の変更が伝わりにくい",
+        "多言語対応の優先度が不明"
+      ],
+      "proposals": [
+        "利用者別の入口を設置",
+        "営業情報を一元管理",
+        "重要ページから段階的に多言語化"
+      ],
+      "parent": "chiba",
+      "admin_name": "浦安市",
+      "nearby": [
+        "chiba/funabashi",
+        "tokyo"
+      ],
+      "priority": 0.76,
+      "url": "https://www.luqvia.com/area/chiba/urayasu/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/chiba/urayasu/index.html"
+    },
+    {
+      "slug": "chiba/funabashi",
+      "name": "船橋市",
+      "prefecture": "千葉県",
+      "kind": "city",
+      "local_context": "商業・住宅・地域企業が集まる船橋市では、店舗向けと法人向けの情報を整理し、地域検索から適切な相談窓口へつなげます。",
+      "industries": [
+        "店舗・飲食・美容",
+        "地域企業・士業",
+        "住宅・生活サービス"
+      ],
+      "challenges": [
+        "複数事業の情報が一ページに集中",
+        "店舗ごとの案内が不統一",
+        "問い合わせ内容の振り分けに時間がかかる"
+      ],
+      "proposals": [
+        "事業別のページ階層を作る",
+        "店舗テンプレートを統一",
+        "フォームで相談種別を分岐"
+      ],
+      "parent": "chiba",
+      "admin_name": "船橋市",
+      "nearby": [
+        "chiba/chiba-city",
+        "chiba/urayasu",
+        "chiba/yachiyo"
+      ],
+      "priority": 0.8,
+      "url": "https://www.luqvia.com/area/chiba/funabashi/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/chiba/funabashi/index.html"
+    },
+    {
+      "slug": "fukuoka/kurume",
+      "name": "久留米市",
+      "prefecture": "福岡県",
+      "kind": "city",
+      "local_context": "医療・福祉、店舗、地域企業などを想定し、専門性と相談しやすさを両立したホームページを設計します。",
+      "industries": [
+        "医療・福祉",
+        "美容・飲食・店舗",
+        "地域企業・個人事業主"
+      ],
+      "challenges": [
+        "専門サービスの違いが伝わりにくい",
+        "料金や初回の流れが分散",
+        "地域外からの問い合わせに対応しにくい"
+      ],
+      "proposals": [
+        "対象者別にサービスを整理",
+        "料金・初回案内・FAQを集約",
+        "オンライン相談の入口を追加"
+      ],
+      "parent": "fukuoka",
+      "admin_name": "久留米市",
+      "nearby": [
+        "fukuoka/yame",
+        "fukuoka/ogori",
+        "fukuoka/tachiarai"
+      ],
+      "priority": 0.82,
+      "url": "https://www.luqvia.com/area/fukuoka/kurume/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/fukuoka/kurume/index.html"
+    },
+    {
+      "slug": "fukuoka/yame",
+      "name": "八女市",
+      "prefecture": "福岡県",
+      "kind": "city",
+      "local_context": "地域産品、観光、農業関連、生活サービスを想定し、背景やこだわりを購入・予約・問い合わせへ結び付けます。",
+      "industries": [
+        "地域産品・EC",
+        "観光・飲食",
+        "農業・地域サービス"
+      ],
+      "challenges": [
+        "魅力はあるが購入方法が分かりにくい",
+        "季節情報がSNSだけに流れる",
+        "事業者のこだわりが長文で読まれにくい"
+      ],
+      "proposals": [
+        "商品・体験ごとにCTAを設定",
+        "季節案内を公式サイトに蓄積",
+        "写真と要点を組み合わせる"
+      ],
+      "parent": "fukuoka",
+      "admin_name": "八女市",
+      "nearby": [
+        "fukuoka/kurume"
+      ],
+      "priority": 0.75,
+      "url": "https://www.luqvia.com/area/fukuoka/yame/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/fukuoka/yame/index.html"
+    },
+    {
+      "slug": "fukuoka/ogori",
+      "name": "小郡市",
+      "prefecture": "福岡県",
+      "kind": "city",
+      "local_context": "地域店舗、住宅・生活サービス、教室などを想定し、対応範囲と利用条件を具体的に伝える構成を作ります。",
+      "industries": [
+        "地域店舗",
+        "住宅・生活サービス",
+        "スクール・教室"
+      ],
+      "challenges": [
+        "営業地域や出張条件が不明",
+        "料金の目安がない",
+        "申込が電話だけに偏る"
+      ],
+      "proposals": [
+        "対応地域・出張条件を掲載",
+        "代表的な料金例を提示",
+        "フォーム・LINEを追加"
+      ],
+      "parent": "fukuoka",
+      "admin_name": "小郡市",
+      "nearby": [
+        "fukuoka/kurume",
+        "fukuoka/tachiarai",
+        "fukuoka/dazaifu"
+      ],
+      "priority": 0.74,
+      "url": "https://www.luqvia.com/area/fukuoka/ogori/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/fukuoka/ogori/index.html"
+    },
+    {
+      "slug": "fukuoka/tenjin",
+      "name": "天神",
+      "prefecture": "福岡県",
+      "kind": "district",
+      "local_context": "競合店舗やサービスが多い天神周辺では、ブランドイメージだけでなく、料金、対象者、予約方法を短時間で把握できる設計が重要です。",
+      "industries": [
+        "美容・ファッション・店舗",
+        "飲食・サービス",
+        "クリエイティブ・IT"
+      ],
+      "challenges": [
+        "SNS映えはするがサービス内容が不明",
+        "予約ボタンが複数あり迷う",
+        "価格帯が分からず離脱される"
+      ],
+      "proposals": [
+        "対象者とメニューを冒頭で提示",
+        "予約CTAを一本化",
+        "料金目安と所要時間を表示"
+      ],
+      "parent": "fukuoka",
+      "admin_name": "福岡市中央区天神周辺",
+      "nearby": [
+        "fukuoka/nakasu",
+        "fukuoka/hakata"
+      ],
+      "priority": 0.82,
+      "url": "https://www.luqvia.com/area/fukuoka/tenjin/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/fukuoka/tenjin/index.html"
+    },
+    {
+      "slug": "fukuoka/nakasu",
+      "name": "中洲",
+      "prefecture": "福岡県",
+      "kind": "district",
+      "local_context": "飲食店や夜間営業の店舗が多い中洲周辺を想定し、営業中に電話対応へ追われず、来店前の疑問を解消できるサイトを作ります。",
+      "industries": [
+        "飲食店・バー",
+        "接客・店舗サービス",
+        "観光客向けサービス"
+      ],
+      "challenges": [
+        "営業時間や料金システムが分かりにくい",
+        "予約・問い合わせが営業時間中に集中",
+        "アクセス案内が不足"
+      ],
+      "proposals": [
+        "料金・営業情報・注意事項を整理",
+        "予約フォームとLINEを用意",
+        "駅・周辺からのアクセスを掲載"
+      ],
+      "parent": "fukuoka",
+      "admin_name": "福岡市博多区中洲周辺",
+      "nearby": [
+        "fukuoka/tenjin",
+        "fukuoka/hakata"
+      ],
+      "priority": 0.8,
+      "url": "https://www.luqvia.com/area/fukuoka/nakasu/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/fukuoka/nakasu/index.html"
+    },
+    {
+      "slug": "fukuoka/hakata",
+      "name": "博多",
+      "prefecture": "福岡県",
+      "kind": "district",
+      "local_context": "企業、宿泊、飲食、県外客向けサービスが集まる博多周辺では、短時間で信頼性と利用方法を伝える情報設計を行います。",
+      "industries": [
+        "企業・BtoBサービス",
+        "宿泊・飲食",
+        "県外客向けサービス"
+      ],
+      "challenges": [
+        "初めての利用者向け情報が不足",
+        "アクセスや受付時間が分散",
+        "法人向けと一般向けの窓口が同じ"
+      ],
+      "proposals": [
+        "初回利用ガイドを作成",
+        "基本情報を一ページに集約",
+        "法人・一般の問い合わせを分岐"
+      ],
+      "parent": "fukuoka",
+      "admin_name": "福岡市博多区・博多駅周辺",
+      "nearby": [
+        "fukuoka/tenjin",
+        "fukuoka/nakasu",
+        "fukuoka/dazaifu"
+      ],
+      "priority": 0.84,
+      "url": "https://www.luqvia.com/area/fukuoka/hakata/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/fukuoka/hakata/index.html"
+    },
+    {
+      "slug": "fukuoka/dazaifu",
+      "name": "太宰府市",
+      "prefecture": "福岡県",
+      "kind": "city",
+      "local_context": "観光・飲食・地域店舗を想定し、県外・海外から訪れる人にも営業情報、アクセス、予約方法が分かるサイトを設計します。",
+      "industries": [
+        "観光・飲食",
+        "地域店舗",
+        "体験・サービス"
+      ],
+      "challenges": [
+        "SNSの最新投稿を見ないと営業情報が分からない",
+        "アクセスや予約条件が不足",
+        "多言語案内が統一されていない"
+      ],
+      "proposals": [
+        "営業時間・休業情報を一元化",
+        "アクセス・予約・注意事項を整理",
+        "主要ページから多言語化"
+      ],
+      "parent": "fukuoka",
+      "admin_name": "太宰府市",
+      "nearby": [
+        "fukuoka/hakata",
+        "fukuoka/futsukaichi",
+        "fukuoka/ogori"
+      ],
+      "priority": 0.78,
+      "url": "https://www.luqvia.com/area/fukuoka/dazaifu/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/fukuoka/dazaifu/index.html"
+    },
+    {
+      "slug": "fukuoka/futsukaichi",
+      "name": "二日市",
+      "prefecture": "福岡県",
+      "kind": "district",
+      "local_context": "筑紫野市二日市地区の地域店舗、温泉・観光、生活サービスを想定し、地元客と来訪者の両方が利用しやすい情報を整えます。",
+      "industries": [
+        "温泉・観光・飲食",
+        "地域店舗",
+        "生活サービス"
+      ],
+      "challenges": [
+        "地元客向けと観光客向け情報が混在",
+        "予約・営業情報が外部サイト任せ",
+        "サービス範囲が伝わらない"
+      ],
+      "proposals": [
+        "利用目的別にページを分ける",
+        "公式情報の基準ページを作る",
+        "対応範囲と料金を明記"
+      ],
+      "parent": "fukuoka",
+      "admin_name": "筑紫野市二日市地区",
+      "nearby": [
+        "fukuoka/dazaifu",
+        "fukuoka/ogori"
+      ],
+      "priority": 0.72,
+      "url": "https://www.luqvia.com/area/fukuoka/futsukaichi/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/fukuoka/futsukaichi/index.html"
+    },
+    {
+      "slug": "fukuoka/tachiarai",
+      "name": "大刀洗町",
+      "prefecture": "福岡県",
+      "kind": "town",
+      "local_context": "農業・地域企業・生活サービスを想定し、紹介や口コミだけに頼らず、事業内容と問い合わせ方法を検索で確認できる状態を作ります。",
+      "industries": [
+        "農業・地域産品",
+        "製造・地域企業",
+        "生活サービス"
+      ],
+      "challenges": [
+        "事業内容が検索結果で分からない",
+        "商品や対応業務の一覧がない",
+        "問い合わせが知人紹介に偏る"
+      ],
+      "proposals": [
+        "事業・商品を用途別に整理",
+        "写真付きの実績を掲載",
+        "新規相談用フォームを設置"
+      ],
+      "parent": "fukuoka",
+      "admin_name": "福岡県三井郡大刀洗町",
+      "nearby": [
+        "fukuoka/kurume",
+        "fukuoka/ogori"
+      ],
+      "priority": 0.7,
+      "url": "https://www.luqvia.com/area/fukuoka/tachiarai/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/fukuoka/tachiarai/index.html"
+    },
+    {
+      "slug": "nara/kashiba",
+      "name": "香芝市",
+      "prefecture": "奈良県",
+      "kind": "city",
+      "local_context": "住宅地の生活サービス、店舗、医療・福祉、教室などを想定し、安心材料と利用条件を分かりやすく提示します。",
+      "industries": [
+        "医療・福祉・生活サービス",
+        "スクール・教室",
+        "地域店舗"
+      ],
+      "challenges": [
+        "初回利用の不安が解消されない",
+        "対象地域や送迎条件が不明",
+        "問い合わせが営業時間内に限られる"
+      ],
+      "proposals": [
+        "初めての方向け案内を作成",
+        "対応範囲と条件を掲載",
+        "フォーム・LINEで24時間受付"
+      ],
+      "parent": "nara",
+      "admin_name": "香芝市",
+      "nearby": [
+        "osaka"
+      ],
+      "priority": 0.73,
+      "url": "https://www.luqvia.com/area/nara/kashiba/",
+      "relationship_policy": "運営者に実際の関係がある。詳細な個人情報や存在しない拠点は公開しない。",
+      "relationshipText": "LuQviaの運営者が、居住・在学・勤務・取引・顧客対応・訪問・家族とのつながりのいずれかを通じて、実際に関わってきた地域です。 このページは、その関係性を地域拠点や所在地として装うものではなく、地域を理解した上でオンライン支援できることを説明するために作成しています。",
+      "generatedPath": "area/nara/kashiba/index.html"
+    }
+  ],
+  "singleSourcePolicy": "地域名・親地域・対象業種・課題・提案・関係性・関連地域をこのJSONで管理し、地域HTML・一覧・内部リンク・構造化データ・サイトマップの生成元とする。"
+}

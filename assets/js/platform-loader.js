@@ -12,19 +12,12 @@
   function safeSet(v){try{localStorage.setItem(key,v);}catch(e){}}
   function loadScript(src,id){if(id&&document.getElementById(id))return;var s=document.createElement('script');if(id)s.id=id;s.async=true;s.src=src;document.head.appendChild(s);}
   function loadAnalytics(){
-<<<<<<< HEAD
     var mode=cfg.analyticsMode||((cfg.gtmId&&/^GTM-[A-Z0-9]+$/.test(cfg.gtmId))?'gtm':'ga4');
     /* Load exactly one analytics transport. GTM is primary when both IDs exist. */
     if(mode==='gtm' && cfg.gtmId && /^GTM-[A-Z0-9]+$/.test(cfg.gtmId)){
       window.dataLayer.push({'gtm.start':Date.now(),event:'gtm.js',ga4_measurement_id:cfg.ga4Id||''});
       loadScript('https://www.googletagmanager.com/gtm.js?id='+encodeURIComponent(cfg.gtmId),'luqvia-gtm');
     } else if(mode==='ga4' && cfg.ga4Id && /^G-[A-Z0-9]+$/.test(cfg.ga4Id)){
-=======
-    if(cfg.gtmId && /^GTM-[A-Z0-9]+$/.test(cfg.gtmId)){
-      window.dataLayer.push({'gtm.start':Date.now(),event:'gtm.js'});
-      loadScript('https://www.googletagmanager.com/gtm.js?id='+encodeURIComponent(cfg.gtmId),'luqvia-gtm');
-    } else if(cfg.ga4Id && /^G-[A-Z0-9]+$/.test(cfg.ga4Id)){
->>>>>>> 66e0b9516c9dd1cec7a0500a6ad22e11b26ae86a
       loadScript('https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(cfg.ga4Id),'luqvia-ga4');
       gtag('js',new Date());gtag('config',cfg.ga4Id,{anonymize_ip:true});
     }

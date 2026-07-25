@@ -1,0 +1,105 @@
+{
+  "version": "3.6.0",
+  "updated": "2026-07-25",
+  "currency": "JPY",
+  "tax_display": "税込参考価格",
+  "standard_inclusions": [
+    "スマートフォン対応",
+    "SSL",
+    "基本問い合わせ導線",
+    "title・description",
+    "見出し構造",
+    "canonical",
+    "sitemap.xml",
+    "robots.txt",
+    "OGP",
+    "基本構造化データ",
+    "内部リンク",
+    "画像alt",
+    "GA4・GTM",
+    "Search Console登録支援",
+    "公開前QA"
+  ],
+  "packages": [
+    {
+      "id": "quick-launch",
+      "name": "クイック公開",
+      "base_pricing": "1ページ 11,000円〜",
+      "lead_time": "素材受領後 最短3営業日〜",
+      "seo": "基本SEO標準"
+    },
+    {
+      "id": "business-start",
+      "name": "開業スタート",
+      "additional_price": "55,000〜88,000円"
+    },
+    {
+      "id": "local-growth",
+      "name": "店舗集客",
+      "additional_price": "66,000〜99,000円"
+    },
+    {
+      "id": "form-automation",
+      "name": "予約・申込自動化",
+      "additional_price": "55,000〜110,000円"
+    },
+    {
+      "id": "recruiting",
+      "name": "採用強化",
+      "additional_price": "55,000〜88,000円"
+    },
+    {
+      "id": "seo-start",
+      "name": "SEOスタート",
+      "additional_price": "33,000〜66,000円"
+    }
+  ],
+  "options": [
+    {
+      "id": "quick-logo",
+      "name": "クイックロゴ",
+      "price_from": 22000
+    },
+    {
+      "id": "brand-logo",
+      "name": "ブランドロゴ",
+      "price_from": 44000
+    },
+    {
+      "id": "writing",
+      "name": "原稿作成",
+      "price_from": 11000
+    },
+    {
+      "id": "line",
+      "name": "LINE公式アカウント",
+      "price_from": 16500
+    },
+    {
+      "id": "google-business-profile",
+      "name": "Googleビジネスプロフィール",
+      "price_from": 22000
+    },
+    {
+      "id": "domain-email",
+      "name": "独自ドメイン・メール",
+      "price_from": 11000
+    },
+    {
+      "id": "visual",
+      "name": "写真・画像整備",
+      "price_from": 5500
+    },
+    {
+      "id": "form-integration",
+      "name": "予約・フォーム連携",
+      "price_from": 11000
+    },
+    {
+      "id": "multilingual",
+      "name": "多言語対応",
+      "price_from": 22000,
+      "unit": "1ページ"
+    }
+  ]
+}

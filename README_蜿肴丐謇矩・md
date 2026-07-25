@@ -60,3 +60,16 @@
 - 同意前は解析タグを読み込まず、同意後にGTMを読み込みます。
 - GTMコンテナ内のGoogleタグで測定ID `G-8Z0Y6EQ13D` を設定してください。
 - 公開後はGTMプレビューとGA4 DebugViewで、同じイベントが1回だけ届くことを確認してください。
+
+
+## v3.6.0 目的別パッケージ・SEO強化
+
+- `/price/` を目的別パッケージ提案ページへ刷新
+- クイック公開、開業、店舗集客、予約自動化、採用、SEOの6パッケージを掲載
+- ロゴ、原稿、LINE、Googleビジネスプロフィール等を有料オプションとして明示
+- 全制作プランの基本SEO標準範囲を明示
+- `/low-cost-homepage/` を最短3営業日からのクイック公開ページへ刷新
+- `/seo/` を基本SEOと継続SEOの役割が分かる構成へ刷新
+- GTM `GTM-53CKMLKH`、GA4 `G-8Z0Y6EQ13D` の設定を維持
+
+公開後は `/price/`、`/low-cost-homepage/`、`/seo/`、`/faq/` の表示と、GTMプレビューで `package_view`、`package_interest_click` を確認してください。

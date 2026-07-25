@@ -32,6 +32,7 @@ section{padding:88px 0}.white{background:#fff}.soft{background:var(--bg)}.sectio
 .privacy-consent{position:fixed;z-index:500;left:20px;right:20px;bottom:20px;max-width:1040px;margin:auto;padding:20px 22px;border:1px solid var(--line);border-radius:20px;background:#fff;box-shadow:0 20px 70px rgba(16,29,44,.23);display:flex;justify-content:space-between;align-items:center;gap:24px}.privacy-consent strong{color:var(--navy)}.privacy-consent p{margin:4px 0;color:var(--sub);font-size:13px;line-height:1.65}.privacy-consent a{color:var(--accent);font-size:12px;font-weight:800}.privacy-consent-actions{display:flex;gap:8px;flex:0 0 auto}.privacy-consent button{border:1px solid var(--line);border-radius:999px;padding:10px 15px;background:#fff;color:var(--navy);font-weight:850;cursor:pointer}.privacy-consent button.primary{background:var(--navy);color:#fff;border-color:var(--navy)}
 @media(max-width:960px){.footer-grid{grid-template-columns:1fr}.privacy-consent{align-items:stretch;flex-direction:column}.privacy-consent-actions{width:100%}.privacy-consent-actions button{flex:1}}
 @media(max-width:700px){.form-grid,.choice-grid{grid-template-columns:1fr}.form-wide{grid-column:auto}.diagnosis-form .btn,.form-line-button{width:100%}.privacy-consent{left:10px;right:10px;bottom:88px}.privacy-consent-actions{flex-direction:column}}
+<<<<<<< HEAD
 
 
 /* Phase2 global growth pages 2026-07-25 */
@@ -45,3 +46,5 @@ section{padding:88px 0}.white{background:#fff}.soft{background:var(--bg)}.sectio
 .readiness-checklist{display:grid;gap:12px;margin:24px 0}.readiness-item{display:grid;grid-template-columns:28px 1fr;gap:12px;padding:16px;border:1px solid var(--line);border-radius:14px;background:#fff}.readiness-item input{width:20px;height:20px;margin-top:2px}.readiness-item strong{display:block;margin-bottom:4px}.checklist-actions{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.measurement-note{font-size:13px;color:var(--muted);padding:14px 16px;background:#f6f8fa;border-radius:12px}.deliverable-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:24px 0}.deliverable-card{padding:22px;border:1px solid var(--line);border-radius:18px;background:#fff}.deliverable-card h3{margin-top:0}@media(max-width:800px){.deliverable-grid{grid-template-columns:1fr}}
 @media print{header,.mobile-cta,footer,.checklist-actions,.cta{display:none!important}.readiness-item{break-inside:avoid}}
 
+=======
+>>>>>>> 66e0b9516c9dd1cec7a0500a6ad22e11b26ae86a

@@ -1,0 +1,53 @@
+# LuQvia v3.2.0 公開反映手順
+
+# LuQvia v3.1.0 反映手順
+
+1. ZIPを解凍します。
+2. 中身をGitHubリポジトリ直下へ上書きします。
+3. `https://www.luqvia.com/`、`/works/`、`/price/`、`/blog/`、`/area/`を確認します。
+4. フォーム、LINE、メールのリンクを実機で確認します。
+5. Search Consoleで`sitemap.xml`を再送信します。
+6. GA4またはGTMで`pricing_view`、`case_study_view`、`article_view`、`lead_cta_click`を確認します。
+
+## v3.1.0追加
+- 実績一覧と3事例
+- 4段階料金プラン
+- 商用SEO記事10件
+- 紹介・協業ページ
+- 実績・料金・記事閲覧のGA4イベント
+
+## 注意
+- 料金は目安であり、正式条件は見積書・契約書で明示してください。
+- 実績ページでは未確認の売上・順位・問い合わせ増加を記載していません。
+- 月商1,000万円は内部の事業目標であり、公開サイト上で成果保証として表示していません。
+
+# LuQvia v3.0 地域SEO強化版
+
+## 反映方法
+このフォルダ直下の内容を、GitHubリポジトリ直下へ上書きしてください。
+
+## 追加内容
+- 地域一覧ページ `/area/`
+- 地域ページ 50件
+- 単一データ源 `data/areas.json`
+- 地域別 Service / FAQPage / BreadcrumbList 構造化データ
+- 関連地域・都道府県・市区町村の内部リンク
+- sitemap.xml 更新
+- GA4/GTM連携用 `area_page_view` と `lead_cta_click`
+- 旧 `/hamamatsu-homepage/` と `/shizuoka-homepage/` の移転ページ
+
+## 公開方針
+- 実在しない地域拠点・住所は記載していません。
+- 遠方地域は原則オンライン対応です。
+- 地域との関係性は個人情報を出し過ぎず、実際の関わりがあることのみ説明しています。
+- 地域ページは地名だけを差し替えず、業種・課題・提案・FAQ・内部リンクを個別化しています。
+
+## 公開後
+1. Search Consoleで sitemap.xml を送信
+2. URL検査で `/area/` と優先地域を確認
+3. GA4で area_page_view / lead_cta_click を確認
+4. 30〜90日後に表示回数・順位・問い合わせを地域別に比較
+
+
+## GAS側のコード更新
+公開ZIPにはGASソースを含みません。完全版の `source/diagnosis-backend/` を既存GASへ反映し、同じウェブアプリを新しいバージョンへ更新してください。

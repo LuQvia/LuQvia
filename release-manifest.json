@@ -1,12 +1,23 @@
 {
-  "release": "v3.1.0-Revenue-Foundation",
-  "generatedAt": "2026-07-22T15:20:00+09:00",
-  "baseUrl": "https://www.luqvia.com/",
-  "htmlCount": 109,
-  "sitemapUrlCount": 106,
-  "worksCount": 3,
-  "articleCount": 10,
-  "serviceLandingCount": 5,
+  "release": "LuQvia v3.5.1 Analytics Configured",
+  "generated": "2026-07-25",
+  "base": "LuQvia v3.5.0 Conversion Measurement and Japan Readiness",
+  "html_files": 124,
+  "indexable_urls": 121,
+  "analytics": {
+    "mode": "gtm",
+    "gtm_id": "GTM-53CKMLKH",
+    "ga4_measurement_id": "G-8Z0Y6EQ13D",
+    "direct_ga4_loading": false,
+    "consent_aware": true
+  },
+  "changes": [
+    "configured Google Tag Manager and GA4 identifiers",
+    "GTM set as the single analytics transport to avoid duplicate direct loading",
+    "analytics assets cache-busted across all HTML pages",
+    "consent-aware loading preserved",
+    "release manifest checksums regenerated"
+  ],
   "files": [
     {
       "path": ".nojekyll",
@@ -15,8 +26,8 @@
     },
     {
       "path": "404.html",
-      "size": 3009,
-      "sha256": "e11e90128f47b72285d4864436b283502405b3a04913ca37101051d1fc9aab94"
+      "size": 3621,
+      "sha256": "a6adf940398cd79ca417aed68201fca33f92a43c11a58e85f4608e383c2bf274"
     },
     {
       "path": "CNAME",
@@ -25,328 +36,348 @@
     },
     {
       "path": "README_反映手順.md",
-      "size": 2151,
-      "sha256": "ea11f8d7f724cffaf043fc102ecb90fd29d317485e47f827292e260872343de8"
+      "size": 2894,
+      "sha256": "e971eb530801d128796d9f4eb73ff748893c33476bdca07432c23735e858b0a8"
+    },
+    {
+      "path": "ai-workflow-automation/index.html",
+      "size": 8311,
+      "sha256": "24314a3189e4fcdcf4db26b6749644d3b09b720b2a064be0e1993aa9a4ed7ee5"
     },
     {
       "path": "area/aichi/index.html",
-      "size": 19125,
-      "sha256": "43b3c2f6ba0db8fcf0742691ac5796f72990f6caa2e6df638458aac62d82f183"
+      "size": 19391,
+      "sha256": "a17911fe28eb8d1534f0994bbc05aceba466e79a24051313a8d52bc2f10a3003"
     },
     {
       "path": "area/aichi/toyohashi/index.html",
-      "size": 19317,
-      "sha256": "b023157fa7a45e93c96a4ca50081e9e04de353d7d42a3a660acc3d3581d7cda3"
+      "size": 19582,
+      "sha256": "df33ab92d24367997c65c7d4e60e5b5cd0aa661e17983b4e66597b9db18615a4"
     },
     {
       "path": "area/chiba/abiko/index.html",
-      "size": 19757,
-      "sha256": "c14cd0d2ccc8e68ee11224045b9a9edc89a54ae07f1c2cfa282a874d293f7a45"
+      "size": 20022,
+      "sha256": "8b42bdc12f6cbd5d68a0a1203d97321cb03653f6b1cdc5e42b2d3d4fe0f61250"
     },
     {
       "path": "area/chiba/chiba-city/index.html",
-      "size": 19845,
-      "sha256": "c59142ddf67d771df2bf7bfef51333da6931ec7862b0ee453fff59d55bc6e3bf"
+      "size": 20110,
+      "sha256": "133af40efe5d0420f0829584e5e14e1e1e10bad954ded1b02ee408ae8243c3f4"
     },
     {
       "path": "area/chiba/funabashi/index.html",
-      "size": 19923,
-      "sha256": "60331b27d30e80d17e9bfd537c024a1cb7eb37bf4b46dcae9ec8940cea5eb87a"
+      "size": 20188,
+      "sha256": "7080e68f4c664227bfbbdb9488748a9465b08ffa97c26f8d1389edff751d4be1"
     },
     {
       "path": "area/chiba/index.html",
-      "size": 21300,
-      "sha256": "29c913de10429eb899183d4b4a912c9d0082fa24dcd2f31b940e4803ac461842"
+      "size": 21566,
+      "sha256": "6ab301025a84995783bc917968a2c2e61b765828a6046d891938cfaf38a4b51c"
     },
     {
       "path": "area/chiba/kashiwa/index.html",
-      "size": 19649,
-      "sha256": "bbf0d1c6d7f1a4a80e1b93e8aebb70beb61b94d5758ab9bdb46ee03e3e176774"
+      "size": 19914,
+      "sha256": "dce86a46f3550fbb4a3fce40d628a919b402ba6ae21e4fce55917732a26a69c5"
     },
     {
       "path": "area/chiba/matsudo/index.html",
-      "size": 19846,
-      "sha256": "a4bee94b996098df1aaa5b31866353cc57d8b6c31fa5e2347f51af193bf9b563"
+      "size": 20111,
+      "sha256": "c18e1d3c94e60f3d0a37fb8888308295f41316f1f9677f4ed53c9be1779697ac"
     },
     {
       "path": "area/chiba/nagareyama/index.html",
-      "size": 19825,
-      "sha256": "6ac666b09164fa4cfbce346d2b57dafd09e1e60c5544f3c411af7541408e53c7"
+      "size": 20090,
+      "sha256": "2064dc557e460e3bb236b7210884c9e678863774408aadc5e64298af2c3c9357"
     },
     {
       "path": "area/chiba/urayasu/index.html",
-      "size": 19739,
-      "sha256": "007e0fd138891861f4baa5a7ea1c54eeb14692a665a26c7ba66a6fd0fb9e6240"
+      "size": 20004,
+      "sha256": "60e775dc09bb00c49174dc578ab1dd50e831d3ecf05b5c8e1dba04e5cc9dbed2"
     },
     {
       "path": "area/chiba/yachiyo/index.html",
-      "size": 19792,
-      "sha256": "5bb7e74ac5c9ad54e1a0b316e590bbafffee34eb87384056b0b0b03d289b15c4"
+      "size": 20057,
+      "sha256": "696b546fe5b4e88b7b5b72f88df11e8a1be4aca6f07ff70ca0ec9196066f31f1"
     },
     {
       "path": "area/fukuoka/dazaifu/index.html",
-      "size": 19879,
-      "sha256": "9e84be17fa13186f8b3095d88be936bbec3e34c8fd55e4abb1cc9c75b7e05682"
+      "size": 20144,
+      "sha256": "321ff6a004b206472f2e26d14ef65ed6445150befc6de3cd866b4b67287d39f7"
     },
     {
       "path": "area/fukuoka/futsukaichi/index.html",
-      "size": 19897,
-      "sha256": "35f594724812d5e6ac8fa462fbe99b5d8867bd19d6404ef73fcafda330e6eae1"
+      "size": 20162,
+      "sha256": "c397c823dd1c2e367782e040d413548b8869a23831dc3bd1ea7b7a2b025d483e"
     },
     {
       "path": "area/fukuoka/hakata/index.html",
-      "size": 19805,
-      "sha256": "829f022d30d50ec3c496884dd2ad92a55c98bac29e2e506b0f351de7e7075836"
+      "size": 20070,
+      "sha256": "14f0dcdc1ef860af45ce66da195a0eb9259f683a1c5334bceb82f3587f3916ef"
     },
     {
       "path": "area/fukuoka/index.html",
-      "size": 21654,
-      "sha256": "99f61875d1de26a1ad19abf4b26727700131e2e4b24705e6527e01d8b067d0d8"
+      "size": 21920,
+      "sha256": "f4c9ba9f327b905442af22708f9308fa4e4919f08ab3788fbb216cca644a7aee"
     },
     {
       "path": "area/fukuoka/kurume/index.html",
-      "size": 19897,
-      "sha256": "764631c54b6d3422ff95ce9f0f7e76f2bb9b0de46fe071f4c99d9f0d1d799933"
+      "size": 20162,
+      "sha256": "207af6e2e49a52537a638213aa0b9f85b0bf3abbb6424219482682caf7489d0c"
     },
     {
       "path": "area/fukuoka/nakasu/index.html",
-      "size": 19869,
-      "sha256": "962ce3a4493230091cd4c032456b50bcd053d8f5c10728dace25f6824b2289a9"
+      "size": 20134,
+      "sha256": "72f6d0e0d002eb2f9ba3c055f9db5d3cc38d65f8076bf81ae2b374026d23e7d4"
     },
     {
       "path": "area/fukuoka/ogori/index.html",
-      "size": 19651,
-      "sha256": "5ba1c5b7bc462610e78e4a220f3cfe1e31cef7de590365b56e2da206183ef8b4"
+      "size": 19916,
+      "sha256": "10cbb54729bb6262c74cb3a2007ad90d421ee0ee4430bd3233362de0b9f29d4b"
     },
     {
       "path": "area/fukuoka/tachiarai/index.html",
-      "size": 20018,
-      "sha256": "d075264786231511b968591cf1f77886bc064b9bc96b900b8fe0b19b2af26855"
+      "size": 20283,
+      "sha256": "8bcae23817af7fd7d74cc4611007a633c2e18591e4f3f5cc3372a873c4607c33"
     },
     {
       "path": "area/fukuoka/tenjin/index.html",
-      "size": 19950,
-      "sha256": "a5440a1ab288c17166fbc14862a172f4ca6a7278df96233d886f99f77e506932"
+      "size": 20215,
+      "sha256": "aea17962f966267fe77635d302ad1c931e804005ca0f102713dbcf0dff6c3184"
     },
     {
       "path": "area/fukuoka/yame/index.html",
-      "size": 19778,
-      "sha256": "cb4a93cac53a9aa6e0037bbdbe8095b9090cd21ea7b8eeebbac441ca5f0fa7d0"
+      "size": 20043,
+      "sha256": "004007c3357304c50f1b4f792e0a100bb16dcae5ca54792c50e93059f88261af"
     },
     {
       "path": "area/gifu/index.html",
-      "size": 18415,
-      "sha256": "89bca740ff33becb2bf7bba0642537e19b5031caa0e7501b6ab682bb3323095a"
+      "size": 18680,
+      "sha256": "2acf982cf9f9e29955feadbc545ae7d63d2c84b64de9612e960d05dbc7fbbf95"
     },
     {
       "path": "area/gunma/index.html",
-      "size": 18477,
-      "sha256": "c18d22efd199a120b683a4e9f4a3e13f0c89c9f0742e68c44b8912fe3278c754"
+      "size": 18742,
+      "sha256": "a3c264a607483291802b8a316228210569ded237e66b4d25551a5e7658fd87e9"
     },
     {
       "path": "area/hiroshima/index.html",
-      "size": 18466,
-      "sha256": "2cb06e55cfd7a0887d56f9c10ea6afa5285d4d731be121a88ec191baf5a8a67e"
+      "size": 18731,
+      "sha256": "8e6d07ed2556fac4db6d670cb8d40b8834aed05146acbe9321c41a944d6caf13"
     },
     {
       "path": "area/hyogo/index.html",
-      "size": 18596,
-      "sha256": "a11ed8ae2875b209472a0414f996ba267b29f0a0dbe1ef9af83c6c852cede48b"
+      "size": 18861,
+      "sha256": "6842741928ccb9414fab9ed23f98f36b77dd3c2d5fbc556a151a1bc4872d36b1"
     },
     {
       "path": "area/ibaraki/index.html",
-      "size": 18512,
-      "sha256": "9500c1645601235c061b0a7192dcefe7f1271adce65cf41d8a815c2e89edbdee"
+      "size": 18777,
+      "sha256": "7c4a3d5860474ad37a08aaaffb30d6c79d75df62093f807623137639e37c1b00"
     },
     {
       "path": "area/index.html",
-      "size": 16927,
-      "sha256": "a5472c51190fc585b9499f8f4823ef4dbe68e74ea8c35ec76d95144cb7c9e6ee"
+      "size": 17251,
+      "sha256": "c9ce5bae056dc1fc8d251af6d79d4e7cf553e1b1b9784cee8e36eea8a38b6d07"
     },
     {
       "path": "area/kagoshima/index.html",
-      "size": 18740,
-      "sha256": "76d3daa203d7d53e4d383c7ae42facf506ae4aeb608e6e78ebc6d478d993a828"
+      "size": 19005,
+      "sha256": "0b51f022ae7a94ad622cd01482e051abb42e83ff7c048e0338bef7ee5b153784"
     },
     {
       "path": "area/kanagawa/index.html",
-      "size": 19685,
-      "sha256": "e2bd8c228da7c93f9b278b51161b553ff23a4c98891d2ac842319d1b6721002d"
+      "size": 19951,
+      "sha256": "b3da7abb4e15cdd61c5a4ffd53d2722503ed851a3e36547d8dcf5f466ac644ec"
     },
     {
       "path": "area/kanagawa/kawasaki/index.html",
-      "size": 19228,
-      "sha256": "68a54ebf7a9d5e198f5b9b6f8a0ec32fed21266f09a154d333a7d286f54bca09"
+      "size": 19493,
+      "sha256": "b56e3c65798b0ec7384f873ebb565e7036cae90e6ce7dda0474a1e25630bbfa3"
     },
     {
       "path": "area/kanagawa/yokohama/index.html",
-      "size": 19404,
-      "sha256": "d54d38d1f4f47e735f28605650ff1d9770f44e2f9bf04489a39965a2c1e4cf49"
+      "size": 19669,
+      "sha256": "43ce11ba1663a2b3681e99f4bdb899672b126c2139a6bcfbbceca17d6f3e5f93"
     },
     {
       "path": "area/kumamoto/index.html",
-      "size": 18648,
-      "sha256": "7e12054876a78b0d3608d8e9db5f17c8ee766b832ab21eb1e7b1f02efddd18b6"
+      "size": 18913,
+      "sha256": "ba3822986abb8a9c046da24e2f82ea46895898413c8509047a667734eb18054f"
     },
     {
       "path": "area/mie/index.html",
-      "size": 18335,
-      "sha256": "4b02606978a35fd12a8b86f5b537ed5001804c6cfe1f3890d86809cd3efa882e"
+      "size": 18600,
+      "sha256": "8858606f38eefbef40c18339b834ffa0865c1d47a09700c230ce11e6a164bc60"
     },
     {
       "path": "area/nara/index.html",
-      "size": 19174,
-      "sha256": "2e606f48ddd94b3c1dde2fa37cebca36bf81580db446cae5ea780211f09d2564"
+      "size": 19440,
+      "sha256": "630f8b7f12c00706be8ece493b4faa01327ccfc4b3258522ff2e4f62085daa1c"
     },
     {
       "path": "area/nara/kashiba/index.html",
-      "size": 19187,
-      "sha256": "8ba1c3947960dfd63d4ea753119d8e3fa3316ad12bf8e907259d462e8262529b"
+      "size": 19452,
+      "sha256": "acf783a0372fc2255cab7bcdb331bb62ed09598cc037f64193310ebc85659d91"
     },
     {
       "path": "area/nationwide/index.html",
-      "size": 19502,
-      "sha256": "ddbab4f9fe87c42ee298b5b6248ee8b27e65384c698b8daf893dff7261790be9"
+      "size": 19767,
+      "sha256": "cda8af36893fed7fdd023bdc9940dd98450d551252d1aa1ef4e9124ef1411361"
     },
     {
       "path": "area/osaka/index.html",
-      "size": 18556,
-      "sha256": "7edb606b351d5aec01898347f3f075991246845b1b3a70f7f9cc6ac176fb5545"
+      "size": 18821,
+      "sha256": "af4795ede66db7eba19f7aca054af746358da70ecd42e8921630e5678890c7d3"
     },
     {
       "path": "area/saitama/index.html",
-      "size": 18525,
-      "sha256": "e9d608d92763ddbbbe625b9f0e04c807c7ceb0cdfec40543fcda84e31f1db016"
+      "size": 18790,
+      "sha256": "63f09580394ac95cacd52cee66caa652334cd057524855f5d1fd280fac49ea92"
     },
     {
       "path": "area/shizuoka/hamamatsu/index.html",
-      "size": 19696,
-      "sha256": "70cc156a52f8a06ac430941b79408e7fcf6016d849b38e2279b54b2c07b0232b"
+      "size": 19961,
+      "sha256": "c441636c4bcb658b0931b97fa5efb75901450283f99a3ca1f62c1e4be30946e5"
     },
     {
       "path": "area/shizuoka/index.html",
-      "size": 20479,
-      "sha256": "88ce75673f8b182207a6ef33d15ba3ccfa2c8dfb934b1cadd45d644a6428c3b1"
+      "size": 20745,
+      "sha256": "58ae45b9dbadee635b4b8624a66a7d7903c300d71dbfc593a1d9196bd225892e"
     },
     {
       "path": "area/shizuoka/iwata/index.html",
-      "size": 19348,
-      "sha256": "af4024d4f0822d2d12aa21591a2a3e8fca7de432adcfdc5b2c846f00b95e4f23"
+      "size": 19613,
+      "sha256": "ce03443b3f5f636f74aca3fc6d896e19630c325d7b0d382f3c958da3332ba037"
     },
     {
       "path": "area/shizuoka/kosai/index.html",
-      "size": 19469,
-      "sha256": "4b1ec1e49905bbf5edb1d810c218dab3eee6d4f1ba46f70237cfab3a34e8c202"
+      "size": 19734,
+      "sha256": "1b0765a1facc8f9519dc614c26371a2fb537c6e7489a0a8056897394cac06515"
     },
     {
       "path": "area/shizuoka/shizuoka-city/index.html",
-      "size": 19552,
-      "sha256": "1fc2e4c965f51a295d55a5481452360a94f3b07b38795fb469d16ee0c8749a1d"
+      "size": 19817,
+      "sha256": "496854caacf495ed228471fc03329bfed8531ff98b4260c310d8befce5281848"
     },
     {
       "path": "area/tochigi/index.html",
-      "size": 18417,
-      "sha256": "806bf9bee6981a431856c20f35e5637d8ee32fa5f96feb760fdde4acd5d29767"
+      "size": 18682,
+      "sha256": "7e22104ea0a65071d056eee472a2d54b31acb5261fa2b16fde3205b46bb42279"
     },
     {
       "path": "area/tokyo/hachioji/index.html",
-      "size": 19849,
-      "sha256": "22286349b8f5599e3ff83e773c390dc800919357c4f1abace0df03fa464a33f4"
+      "size": 20114,
+      "sha256": "61813ee9988143e3ac187d6ef46d6ce7ef581b69e74bf4f2305a65b2b9be08c9"
     },
     {
       "path": "area/tokyo/ikebukuro/index.html",
-      "size": 19789,
-      "sha256": "8e93e389cf8b518ad647689f816d179f04079390c2991ea24060e79caa47937d"
+      "size": 20054,
+      "sha256": "bd5d8bcd3f6bf278bd0e6aba78cac3d661677557968ca0b3b04ee7f6da9e140b"
     },
     {
       "path": "area/tokyo/index.html",
-      "size": 20715,
-      "sha256": "49ba1c1d9246c49d4f38ae4144d407464d4cc7af3604ee5b7f0672b4c5aeddc0"
+      "size": 20981,
+      "sha256": "7fb6274ebc59211fa62c9046ccc81dea1a60c9a4c368b7f29118feb41d6cdedb"
     },
     {
       "path": "area/tokyo/ome/index.html",
-      "size": 19570,
-      "sha256": "41321b24bce41adee396927ff4c63a9e6b5d991be1481da3721829395ff9acf8"
+      "size": 19835,
+      "sha256": "7356baf3bbc9058874e3521dbe86d59922437d25431456a428f3770fe2189247"
     },
     {
       "path": "area/tokyo/shibuya/index.html",
-      "size": 19856,
-      "sha256": "c19d2ea290c8686f9951ca04aca0d839d84adb13aa9015963f796b19edc9b39d"
+      "size": 20121,
+      "sha256": "81ee4963102ce03712e7446e02d81d1fec1c2c999cb94461fa59e40a0b2ad101"
     },
     {
       "path": "area/tokyo/tama/index.html",
-      "size": 19667,
-      "sha256": "9e4bed363548aa6bad1eff72183efdd9e116cae20dbaaf1db4979d86bf7e02a3"
+      "size": 19932,
+      "sha256": "f0786c9f41ed5903c2142ed70547e093e403b61333f7f6112d749715d4eb3fe9"
     },
     {
       "path": "area/yamanashi/index.html",
-      "size": 18491,
-      "sha256": "53e5b9c674de52fdf5bfbb63d5bcbf3e6630d18cdc3eaae48abd5244beae562f"
+      "size": 18756,
+      "sha256": "b455c8c5ee07aa604580b3078abce0af1b398caa868f626b319ee7da7b3fbfa3"
+    },
+    {
+      "path": "assets/js/diagnosis-form.js",
+      "size": 5308,
+      "sha256": "13942175f2cd3f91dc170d9ae7e528e674360f6ea342bdb199ebf9e51e3b8211"
+    },
+    {
+      "path": "assets/js/platform-config.js",
+      "size": 408,
+      "sha256": "12747aa97a276e9dde42512d74be657179ff99f6c45dc35ee662af9f9e24594f"
+    },
+    {
+      "path": "assets/js/platform-loader.js",
+      "size": 3925,
+      "sha256": "2c097682b2eef5d79037b123e29845208f1f5c27bea888e72e468cca221a1db6"
     },
     {
       "path": "automation/index.html",
-      "size": 6990,
-      "sha256": "89a30bd62871250cd6ee55d039bfcde71bc8e51eae323ccb70325a2f481a7113"
+      "size": 9459,
+      "sha256": "3c299457b7e4f73af49478981a3705fed751c9de8a3a5dce0bc76defde9ae0fd"
     },
     {
       "path": "blog/beauty-salon-homepage/index.html",
-      "size": 11015,
-      "sha256": "105db217856de2a55c4ec8c5cb18ac7bd7198a8eb1b3fe81dda07b3867675065"
+      "size": 11349,
+      "sha256": "bd9e210763904ae1c87bb1e3335a4d52a70fc1f8717047158f245dac01fb19aa"
     },
     {
       "path": "blog/cheap-homepage-risks/index.html",
-      "size": 11081,
-      "sha256": "4f74ad002dfde08c60fc08db2ed6e4477832fa185a6910a52d19f70fdcaf9e3e"
+      "size": 11415,
+      "sha256": "d53aeefe78a7d10c1393a3a09f5b7f2ba58426f3788d8473b950dad3d7e8fb39"
     },
     {
       "path": "blog/choosing-web-agency/index.html",
-      "size": 10908,
-      "sha256": "be7df3f474ad8059e43027b9a3d718f3dfa46135452bc7a961cacd7dc6a1e1f0"
+      "size": 11242,
+      "sha256": "f7c915ecca891fc06ec2cb93e2740df2b55e0f361abaac717b0f2d9b3a975130"
     },
     {
       "path": "blog/diy-vs-agency/index.html",
-      "size": 11055,
-      "sha256": "a2d4e9e7d0223a0434454cf965ad445486d2d707562124f38340e38e2e4783d2"
+      "size": 11389,
+      "sha256": "6300aa2d2279564c7df4d075eca9b0085fc55a618f6ac029937366a4d98318f6"
     },
     {
       "path": "blog/homepage-production-cost/index.html",
-      "size": 11346,
-      "sha256": "f73abe7ee59c6a6c14f05d1ddd8f8890f2a5378c4572b9510e81ccc18c9aee85"
+      "size": 11680,
+      "sha256": "876c2a5ef8ef3e924db89fa8aa0fd0b3d64e1a59852c65bb9d59bf799d2ae931"
     },
     {
       "path": "blog/index.html",
-      "size": 10453,
-      "sha256": "5dfdadb8764ee6d5af56e10e7ec7cf03e5cc4aa7ac1977d9e159e01f606d4ea5"
+      "size": 10786,
+      "sha256": "f1ed48aff1fd6a62dce3fb309732094f339f8e94b763cda7b09176dd800b1384"
     },
     {
       "path": "blog/restaurant-homepage/index.html",
-      "size": 11042,
-      "sha256": "0219c4129d33b6514d1c55ea6e484346fe48b2eaa924ea2574a061fed49c01e8"
+      "size": 11376,
+      "sha256": "011d6fd337ec7a71770b1bc6d854ae3690f2c77575b1dc57baa3c76bd1e95097"
     },
     {
       "path": "blog/small-business-page-count/index.html",
-      "size": 10646,
-      "sha256": "6e33c54a6f76d031297461f8f2643e41f5c9a9fe2caa7f153d36d1c69d2b382c"
+      "size": 10980,
+      "sha256": "e07aa5135e24a4053b1d96f69ee57061436554acef177eedc8748ad8e8ec1fca"
     },
     {
       "path": "blog/subscription-homepage/index.html",
-      "size": 10799,
-      "sha256": "757713f54596ea3c0065dbdd0c0080e69946d526e11acb3fa6bf6fe4c911c9e1"
+      "size": 11133,
+      "sha256": "7663b5b05ea9a18c687a4e4542a48920120eae2c38cba4d4152c093e31d50cd4"
     },
     {
       "path": "blog/website-maintenance-cost/index.html",
-      "size": 10614,
-      "sha256": "38ee767fc1f8422418a7c746f41985d44eafde114bd0d54b5a44dba5b6e0f47a"
+      "size": 10948,
+      "sha256": "7664132336426c75d029ce61696f4d0fc0b29e2c0be39c7dc2df6f6aed55989b"
     },
     {
       "path": "blog/website-renewal-cost/index.html",
-      "size": 10885,
-      "sha256": "bd29078e755b088719d8079a4d18534daebc87f438d97303e63d9558b63d5a83"
+      "size": 11219,
+      "sha256": "8ccdafbe2825d750760f362bc30ae37d715f515353a15c10dd820edb75e9cb1c"
     },
     {
       "path": "custom-homepage/index.html",
-      "size": 7329,
-      "sha256": "7cf247322e307d727aeffe420ed5b3ab901b5d21ec9fccac1ecfc861c8d8288e"
+      "size": 7608,
+      "sha256": "ab1cde418c4f99f1d61e64dbd7adb4438a32275c6fa95b69b02fac3d161957d1"
     },
     {
       "path": "data/README.md",
@@ -360,43 +391,93 @@
     },
     {
       "path": "diagnosis/index.html",
-      "size": 5105,
-      "sha256": "157b8d3fa15e8359320c245352f601aa0c5f77207534d3448125083434a2a69c"
+      "size": 10631,
+      "sha256": "0d6e97e9f64eb2f4804af30da295b58255f08ae7437890964b4c267ada72ef21"
     },
     {
       "path": "digital-partner/index.html",
-      "size": 7929,
-      "sha256": "804b72c50ef87ba3cd8d95152bb92be5873f619a62fa2ea43ff43c89102300fa"
+      "size": 8208,
+      "sha256": "062ec07ceea1f34e31ac7e8afcbd3a8fd302d02df4d9a4a1444ed1b865c7f964"
+    },
+    {
+      "path": "en/ai-workflow-automation/index.html",
+      "size": 8120,
+      "sha256": "f310848171817f16e94c719409697484b7b3f58b63cb17390d6da759029e30e2"
+    },
+    {
+      "path": "en/index.html",
+      "size": 8162,
+      "sha256": "4fcfeffef694bdbcefc8fec912a03d88019cf5bed9bb22082dfcf829641a17f6"
+    },
+    {
+      "path": "en/japan-market-entry/index.html",
+      "size": 8215,
+      "sha256": "21d1133c46b1b882d9a98b8ab5806a0ed767f9a928a447e668e9e68519832ad6"
+    },
+    {
+      "path": "en/japanese-localization/index.html",
+      "size": 8058,
+      "sha256": "fcd21888eb4343e85afd39dea9048d0c7ed0b8758d0f38398dbc1559e55a49bf"
+    },
+    {
+      "path": "en/readiness-checklist/index.html",
+      "size": 8425,
+      "sha256": "392d6101c1b838c606437c9708ea91e48a17f4a315d9c80fe4325f17e1a47c73"
     },
     {
       "path": "faq/index.html",
-      "size": 9999,
-      "sha256": "00158a28801895e5278ceb1435be3cecfe7abd1b18d5f19898beb368bb51f050"
+      "size": 10335,
+      "sha256": "7c2cc56164ca908f8bad7a37d40a6c3d0ad898e15cc9eca131fe6ca16eeff966"
+    },
+    {
+      "path": "global/index.html",
+      "size": 8579,
+      "sha256": "53263df1dc745aab5005100153d9354d5196fe97cbace8cf80c0bbc8112586ca"
+    },
+    {
+      "path": "global/readiness-checklist/index.html",
+      "size": 8901,
+      "sha256": "c091997fdabf1c6c7af8d68d020d4e3eae3b5dc418439deaa2641fdaa917302a"
     },
     {
       "path": "growth-support/index.html",
-      "size": 7391,
-      "sha256": "5770f53a6de1920aec11421246579180f8c79e5a432d1048e44459d2e3d666f2"
+      "size": 7725,
+      "sha256": "3e159b0a33976006f7a6b915387fbaafdbcd1c46718c990324cfe67a25c4daec"
     },
     {
       "path": "hamamatsu-homepage/index.html",
-      "size": 3182,
-      "sha256": "98055d0fd16c1aefe73ee73d9a1c6ea0d834e665bcb52e0fb5059ff5973b4e01"
+      "size": 3696,
+      "sha256": "de73b0d2ed5018951030f6e44a3a11be37603f229b91966c2112108741c1d94c"
     },
     {
       "path": "index.html",
-      "size": 17315,
-      "sha256": "468ad8b8bae44cd8919e97542948e415f4a2c7ede2ca81fbf9f5facf80a30420"
+      "size": 18898,
+      "sha256": "5caa8aca2942303a147c51c69fa489534604050968d6f381f86083b3a706e690"
+    },
+    {
+      "path": "japan-market-entry/index.html",
+      "size": 8449,
+      "sha256": "52e314ae333ed05ce052d3d2f835321f2434d78850a68f032641cb27cccf2bf9"
+    },
+    {
+      "path": "japanese-localization/index.html",
+      "size": 8390,
+      "sha256": "b8b9b353d8abce4fdaea2f62c97a537dc8900a8e02cbcc4f5aa492354bdb3b15"
+    },
+    {
+      "path": "lead-measurement-spec.json",
+      "size": 512,
+      "sha256": "4203618acfdbe71687e58cde629d157713f75b30284792579fdd5087a94b27e7"
     },
     {
       "path": "low-cost-homepage/index.html",
-      "size": 5715,
-      "sha256": "ca934365977dcab5bde95e4a5886251bbb5a6d7d993da0983c692e1c3d13961c"
+      "size": 6048,
+      "sha256": "d2d3dee626e71e36c4f47520e729d9cb4c1077c64eab6c14b5f87c681036746c"
     },
     {
       "path": "monthly-homepage/index.html",
-      "size": 5532,
-      "sha256": "c2fec850b6e341768ff00b2def676f7d498a949a0a1e84d4faea25551b8414a3"
+      "size": 5865,
+      "sha256": "49fc1b821ce2b1601955af4f97dd08c20f3062207a055b35e6145b621901dc3b"
     },
     {
       "path": "ogp.png",
@@ -405,18 +486,18 @@
     },
     {
       "path": "partner/index.html",
-      "size": 6736,
-      "sha256": "489611e970f70e0bafa505ed8d80d69ecb90eecf8569c213f0ffd742b259a2ab"
+      "size": 7069,
+      "sha256": "786dbd7bf2b78b6c14dace6b3012232cfbb1708c951dfec75cf91314fbb975cb"
     },
     {
       "path": "price/index.html",
-      "size": 10046,
-      "sha256": "892c1d6c9ef7df881d0761cdee3d0d659f82e2808bba168458046e7d5d29b271"
+      "size": 11506,
+      "sha256": "b7ddec8fc9fc3a91cff8656460f32baccca9b7d50ab239cf007a91b7ee88345d"
     },
     {
-      "path": "release-manifest.json",
-      "size": 19603,
-      "sha256": "2deba8b385035bca0e6e916d7ffc64653294fd08ea10afdce79a2ff122bab4c4"
+      "path": "privacy/index.html",
+      "size": 7858,
+      "sha256": "031e1285ba318aafcc0d71631fac43dfc638c9e3d052abbc74a6428671678824"
     },
     {
       "path": "robots.txt",
@@ -425,188 +506,220 @@
     },
     {
       "path": "samples/beauty-salon/index.html",
-      "size": 5409,
-      "sha256": "878ff3371a588d42aa96c8b8395b755475de5780fcb6bb9e0bccfc4f78711094"
+      "size": 5742,
+      "sha256": "afd495378efbe71e40c567ae88735e2149dfff3c1ac45f1b200b3bf369452988"
     },
     {
       "path": "samples/custom/beauty-salon/index.html",
-      "size": 5474,
-      "sha256": "4d711c22ccaf65dcef120da3bde914de50d9a35f238df3a92cc56f707ba81ddb"
+      "size": 5807,
+      "sha256": "e8add486255549502820c7e621305270398de3337c678c971c374daa17bebd43"
     },
     {
       "path": "samples/custom/index.html",
-      "size": 5645,
-      "sha256": "b1d4ded77cdb1f5a5877f99f99398feb4bc3a69a085f66e5b872cea43c16bf74"
+      "size": 6033,
+      "sha256": "e0c87c4650a355726235ed27f5febfa67c1ad13fd1a976f67d4eda87bfb048d1"
     },
     {
       "path": "samples/custom/personal-gym/index.html",
-      "size": 5434,
-      "sha256": "04fac293b536eab9f92961c662d45c14ffc6b0d23047d5d30d3f6f79e6abb3bf"
+      "size": 5767,
+      "sha256": "a00b3cc4dbee16f60783c52f91318f94cf71eec5277a7fb00c8a0810fb5bea4f"
     },
     {
       "path": "samples/custom/recruit-site/index.html",
-      "size": 5480,
-      "sha256": "a516cd175ccf14e5c794287b7eaf41e4a1426efa046144e4fbc4b46a6732295e"
+      "size": 5813,
+      "sha256": "11f8bcb8ed21f43bad426f704814918f4a225a35d9e981d9ad7d595579d7abb6"
     },
     {
       "path": "samples/custom/renovation/index.html",
-      "size": 5454,
-      "sha256": "c71e3951abc25a32aca13045a21c9560c61c9f0b387824e30055dc033be3968c"
+      "size": 5787,
+      "sha256": "50c51e58d89193f457aa900a8ec7fb96ba4532a3c1ad058067c94f5a92551d7e"
     },
     {
       "path": "samples/custom/restaurant/index.html",
-      "size": 5442,
-      "sha256": "b59ff31427920d3121f4314668f0ca209fc6919858a3548cfec159a43f5995a2"
+      "size": 5775,
+      "sha256": "2b8dfb5bc14d6b072c08e73aa6d35d7772db1e4dcf01c3a90322284879c78c5d"
     },
     {
       "path": "samples/index.html",
-      "size": 6277,
-      "sha256": "cdc3e409874d489920ba9e4b8c81bfaf0b50f4e61f4bd7ebb124a7815a729276"
+      "size": 6665,
+      "sha256": "b9d2929f7809a774cc6187688f0e4f21f7c75210183456af815aa7ac11d10a55"
     },
     {
       "path": "samples/low-cost/beauty-salon/index.html",
-      "size": 5494,
-      "sha256": "be37cfbd67f574b1bcc875053c44f979d446b1d0cbf5b07473dc01da39ea07d1"
+      "size": 5827,
+      "sha256": "03a4822ea60d5cb5e8b511b071c0a4865d96f041495ec1e2f7d31e030c74ccca"
     },
     {
       "path": "samples/low-cost/index.html",
-      "size": 5615,
-      "sha256": "d5c040834c89ca5e167c3b227984f81eca3019b672f26b15ea42396ea6728d6b"
+      "size": 6003,
+      "sha256": "3cbb1641b077e9887b15b4d3225ca3a73ff431bb84368c509bedf3e20925fdfc"
     },
     {
       "path": "samples/low-cost/professional-office/index.html",
-      "size": 5454,
-      "sha256": "f97f938be1491fce3da6a12697bfb1b8c8564d05afe195ff3d6e14398b96aa4c"
+      "size": 5787,
+      "sha256": "053d3a40d47abe117437777be0ac539088167ebbe40dc345c943f9c631e14a87"
     },
     {
       "path": "samples/low-cost/recruit-site/index.html",
-      "size": 5512,
-      "sha256": "2bf8528b6b420b4fbad0cedb3206ecd0eaf0e7ba55e063ccfd82d9a34bc592d6"
+      "size": 5845,
+      "sha256": "bb8128efc6b75f6a4a43d6cbab22a986f39380cd33ed7e8f5ba1493cb25fc32f"
     },
     {
       "path": "samples/low-cost/restaurant/index.html",
-      "size": 5490,
-      "sha256": "c1fe4f58993903c83351f5cc677abfa92b189dfbdd41e8af260e734550af5be9"
+      "size": 5823,
+      "sha256": "a2e7c54ecfa6ac44dabfcd71a334a3ac6009d7f7fe5c6234e5336bcb6b0ddf54"
     },
     {
       "path": "samples/low-cost/seitai-clinic/index.html",
-      "size": 5454,
-      "sha256": "57ea24bf167077ef2ad0cf1b52f8f22f24bd58cae204080dd0bdf803db6fc62d"
+      "size": 5787,
+      "sha256": "1d5f33514e01ed798ddd5a9b07377950e000ab9f0abe812b584415d7e11a2943"
     },
     {
       "path": "samples/lueur-esthe/index.html",
-      "size": 5457,
-      "sha256": "c325ca4a993bd49ae177b10dfbf8c01f6fe4452e70d5a49c138483aed4248046"
+      "size": 5790,
+      "sha256": "f4f126bc272ce8131ef9d180d4f41e814dac8ea63d323ca9cdf7a73e94d10efb"
     },
     {
       "path": "samples/minato-dental/index.html",
-      "size": 5389,
-      "sha256": "e5edc10f567456a286997b7efe7ace78f16596452bc974419a5a72a575b0493b"
+      "size": 5722,
+      "sha256": "b531d16fbd989743860fce8bf3929b6e5e90f9b696ee71c6d343e3d6607f9a77"
     },
     {
       "path": "samples/mirai-care/index.html",
-      "size": 5389,
-      "sha256": "eeecf969b818c64dbabfbfe6b540c9b3fa1c1873e5cdc93043e7fa37c6aae064"
+      "size": 5722,
+      "sha256": "67e1dfc70b3860f86efb5d4dd364a25aacf60d5855347a10a3a52ed7458f88d3"
     },
     {
       "path": "samples/personal-gym/index.html",
-      "size": 5417,
-      "sha256": "f9ee4296d997b36d0184da60bed0aa170d53f64dfecc9c3cb07834cd98cdee45"
+      "size": 5750,
+      "sha256": "2f7cbc6c3b1c813ca462c09cdd5f6d588d6651c0bc1ca888cc6ab441d2c4fcfc"
     },
     {
       "path": "samples/pet-care/index.html",
-      "size": 5415,
-      "sha256": "23856c45ec985f6d2ebf72af51206e19ae3a3a5e400120c7d1729653926bd0ba"
+      "size": 5748,
+      "sha256": "1b8798e9d997cdd544068b0b17176b86990dbfb56ba17a9a073bdb22638216e8"
     },
     {
       "path": "samples/premier-auto/index.html",
-      "size": 5375,
-      "sha256": "99dcff1334c8b7b3498aa988f0fce9b87f39840729ced120ecd50d2e750663c2"
+      "size": 5708,
+      "sha256": "5e598b8d0cf342d6277a4b6e0ab5b95c5bce9adeb1a62bdb52d97b64c3200bc3"
     },
     {
       "path": "samples/professional-office/index.html",
-      "size": 5365,
-      "sha256": "df489ccdec17b4a98b0056ac9d8d950c91d53583c02fbb0376f0fc8857adf458"
+      "size": 5698,
+      "sha256": "ba3dfde277d4197077908b9509f53677ead8db425bdf161223f5a2e28cd54555"
     },
     {
       "path": "samples/recruit-site/index.html",
-      "size": 5381,
-      "sha256": "966d71ccd042f9d2fef03f98b21dab2ec5807ca974c050770f2bb90caf1c2e82"
+      "size": 5714,
+      "sha256": "703e005f45b829bf1ce8341863d03e144ff930b8352a3e384b056b486976a42c"
     },
     {
       "path": "samples/renovation/index.html",
-      "size": 5437,
-      "sha256": "4a4cbbe2fb32089b6a747ef021e390b0170b3889cd6476cfce7f114cb29dc4ba"
+      "size": 5770,
+      "sha256": "aca0e66cd8732c0c1b26f332ac4352c6e71662a67fc3334fdaea64ab7a569b04"
     },
     {
       "path": "samples/restaurant/index.html",
-      "size": 5401,
-      "sha256": "f14a7eebfa4125599ff6abc0372031661f225306207cda389c7ee71f2b03a7d1"
+      "size": 5734,
+      "sha256": "11cb6ff9c3fef7a168bd321f4c25f8d2a8d3f2d2ab0f0a5d4f9c6d57d1c2d953"
     },
     {
       "path": "samples/school/index.html",
-      "size": 5411,
-      "sha256": "596bc86b038c91a1e487ca4c9fc0632713946f560bb491bd8a4c36c61ce3f2f2"
+      "size": 5744,
+      "sha256": "cf730ca8bd08bed197e56b41fa5dab9acafc6424d800c0b20ad1c50546893811"
     },
     {
       "path": "samples/seitai-clinic/index.html",
-      "size": 5425,
-      "sha256": "2c669d160e2eb21c6959634982c7a6e54b7a9a6cb73d27a51761f5410cf93052"
+      "size": 5758,
+      "sha256": "51c564c92a9e64568037d59f21b2c3df875a194706ec5f5296c8db26d6d9a3cc"
     },
     {
       "path": "samples/shizuoka-estate/index.html",
-      "size": 5375,
-      "sha256": "3f900d109821b29ebbdf9173f599d763f6b5a6c0f622b64331534587d470b128"
+      "size": 5708,
+      "sha256": "880509d616d759c6548e0f3f506e8c421d2009ed139fd9b8c2bf6f5b19c9fbb1"
     },
     {
       "path": "script.js",
-      "size": 3067,
-      "sha256": "7dad43fc541be8c053d9323753eff59e699b3d7c2a22e4814e2666f51f804a37"
+      "size": 6590,
+      "sha256": "f3126b6ad07305b4fb6762a413da5d1795408b2b7e7a6c3f78c1207ce1455652"
     },
     {
       "path": "seo/index.html",
-      "size": 7699,
-      "sha256": "e0f98a63822c412d59a8908133e4aef2e3623b823e65761ca5a69bff2f6c6bc4"
+      "size": 8021,
+      "sha256": "3e6e216288748e47623b4f101038888f817df79374cf3f9bf7a96c90b3c76363"
     },
     {
       "path": "shizuoka-homepage/index.html",
-      "size": 3152,
-      "sha256": "6fd9198ec8d295c71eed8ff8b583073fda78c163375d0d2ca940c6d2f613c09b"
+      "size": 3666,
+      "sha256": "fcaf24dd7e5e44d3f4ca363197626fd662e0ca1c9c1162a0b23a74cee38f22af"
     },
     {
       "path": "sitemap.xml",
-      "size": 15937,
-      "sha256": "69c55366593ecc7d91b63bfb46ba21c1ad365958607dcb9d526bb4dec1ba20af"
+      "size": 12105,
+      "sha256": "34f1b92374b8d96deda1224eff6d7940d3ccc5564cf9d572cfa2fe3be45077b0"
     },
     {
       "path": "styles.css",
-      "size": 18629,
-      "sha256": "395b4ef7561280648f4450a2c22c3331f76c5e975bbbd051c975179841c40703"
+      "size": 24900,
+      "sha256": "e6fedfc859fd2e70d6fb04b8adfa298d133ceaa25fde25674724c4ef50e6152d"
     },
     {
       "path": "terms/index.html",
-      "size": 5725,
-      "sha256": "eeb6471ddc95f6c107f9c34b718fa44cc95017db12e47133ca1909e91cab5386"
+      "size": 9541,
+      "sha256": "83860d42687af137a131ad4a71c7e715cc5947eede9b54dc1ff7b0d1ee91c5ce"
+    },
+    {
+      "path": "tools/form-notify/index.html",
+      "size": 8992,
+      "sha256": "f025a09b05728c77b04ec43b0ad711d8dc8776f7034398aa00551a78d3f4507a"
+    },
+    {
+      "path": "tools/index.html",
+      "size": 11564,
+      "sha256": "83186b5610effbb571d86b44689ca7ca66ebf142c001a04a706a6cd002c387e8"
+    },
+    {
+      "path": "tools/pdf-flow/index.html",
+      "size": 9007,
+      "sha256": "9d59661470abfa4e26027265f1f363e272c2ddd0aa2445dc76efdaa2f16543d9"
+    },
+    {
+      "path": "tools/store-performance/index.html",
+      "size": 9082,
+      "sha256": "1d86d4a61de61e305c06c52fc46071c2ff4cba513efcef8b6ba943f6c7536eb7"
+    },
+    {
+      "path": "tools/tools.css",
+      "size": 3718,
+      "sha256": "7336fc602d2b40db74da4ab10cb29b4b7040533839acfd5dc24c52074fba43cb"
+    },
+    {
+      "path": "tools/tools.js",
+      "size": 1019,
+      "sha256": "3cab21469ceeab00dd6f243338f7d29777b95a48f439f9ad7891aa9e6dde09a9"
     },
     {
       "path": "works/index.html",
-      "size": 6735,
-      "sha256": "cc94d4c8066ee57a7dc6017328c8b914eed11f0c6099347981c71d4aa7880024"
+      "size": 7083,
+      "sha256": "b5054d921b9be28a6d9f1bc107f49b04e2892650f0e2fe675e0c422c096172df"
     },
     {
       "path": "works/luqevora/index.html",
-      "size": 7987,
-      "sha256": "a0fde21280c6cfd2eed0f33bfe0737f2b5fabf9d5926575e42b0afb3f22e95ca"
+      "size": 8265,
+      "sha256": "6018830061c7f895e82745cfe79ce0658f9404a305359104fb0f49ef8b67358c"
     },
     {
       "path": "works/luqvia/index.html",
-      "size": 7934,
-      "sha256": "4ad25220612941545e998c9b3946c7b880355368708738c15e16dde46c32c2b3"
+      "size": 8212,
+      "sha256": "5f43002df3e244c237716a3d4340c103acdcca4dbe6be7c7d12b3e01fd17e167"
     },
     {
-      "path": "works/tempofelice/index.html",
-      "size": 7983,
-      "sha256": "7241af7609da78e1e622a578a5028eae39af9606cee5e3dd0f6e03aba0991aa6"
+      "path": "works/solqvia/index.html",
+      "size": 8423,
+      "sha256": "bf2f49196991b762f279c430149fdcb19b999cede23bf3936ec823b2708645b9"
     }
-  ]
+  ],
+  "version": "3.5.1",
+  "generated_at": "2026-07-25"
 }

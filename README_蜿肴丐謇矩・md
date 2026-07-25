@@ -1,3 +1,5 @@
+# LuQvia v3.2.0 公開反映手順
+
 # LuQvia v3.1.0 反映手順
 
 1. ZIPを解凍します。
@@ -46,3 +48,15 @@
 3. GA4で area_page_view / lead_cta_click を確認
 4. 30〜90日後に表示回数・順位・問い合わせを地域別に比較
 
+
+## GAS側のコード更新
+公開ZIPにはGASソースを含みません。完全版の `source/diagnosis-backend/` を既存GASへ反映し、同じウェブアプリを新しいバージョンへ更新してください。
+
+## v3.5.1 アクセス解析設定
+
+- Google Tag Manager: `GTM-53CKMLKH`
+- GA4測定ID: `G-8Z0Y6EQ13D`
+- 読み込み方式: GTM優先（GA4の直読みは行わない）
+- 同意前は解析タグを読み込まず、同意後にGTMを読み込みます。
+- GTMコンテナ内のGoogleタグで測定ID `G-8Z0Y6EQ13D` を設定してください。
+- 公開後はGTMプレビューとGA4 DebugViewで、同じイベントが1回だけ届くことを確認してください。

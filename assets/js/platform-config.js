@@ -1,8 +1,7 @@
-/* LuQvia platform configuration v3.5.1 */
+/* LuQvia platform configuration v3.6.4 */
 window.LUQVIA_CONFIG = Object.freeze({
-  version: '3.6.3',
+  version: '3.6.4',
   siteOrigin: 'https://www.luqvia.com',
-  diagnosisEndpoint: 'https://script.google.com/macros/s/AKfycbz8dFn_9F7VvZlhv4FtmYkAdYC2VukTbifmteEzsi1scECkI0OkV14Y-8GXocRuSrrG/exec',
   analyticsMode: 'gtm',
   ga4Id: 'G-8Z0Y6EQ13D',
   gtmId: 'GTM-53CKMLKH',

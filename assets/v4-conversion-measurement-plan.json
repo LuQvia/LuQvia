@@ -1,0 +1,99 @@
+{
+  "version": "4.0.0",
+  "updated": "2026-08-11",
+  "purpose": "Measure SEO landing -> demo/safety -> diagnosis -> qualified consultation without treating pageviews as business outcomes.",
+  "primary_funnel": [
+    "organic_landing",
+    "workflow_detail_view",
+    "automation_demo_run_or_safety_view",
+    "diagnosis_start",
+    "diagnosis_submit_success",
+    "consultation",
+    "proposal",
+    "won"
+  ],
+  "events": [
+    {
+      "event": "ai_automation_page_view",
+      "scope": "AI automation pages",
+      "parameters": [
+        "page_path"
+      ]
+    },
+    {
+      "event": "ai_automation_workflow_click",
+      "scope": "workflow LP links",
+      "parameters": [
+        "workflow",
+        "source_path"
+      ]
+    },
+    {
+      "event": "automation_demo_run",
+      "scope": "browser-local demo",
+      "parameters": [
+        "scenario"
+      ]
+    },
+    {
+      "event": "ai_automation_diagnosis_submit_start",
+      "scope": "diagnosis",
+      "parameters": [
+        "interest",
+        "estimated_manual_hours",
+        "submission_id"
+      ]
+    },
+    {
+      "event": "ai_automation_diagnosis_submit_success",
+      "scope": "diagnosis",
+      "parameters": [
+        "interest",
+        "submission_id"
+      ]
+    },
+    {
+      "event": "ai_automation_diagnosis_submit_unconfirmed",
+      "scope": "diagnosis",
+      "parameters": [
+        "submission_id"
+      ]
+    },
+    {
+      "event": "ai_automation_diagnosis_submit_error",
+      "scope": "diagnosis",
+      "parameters": [
+        "submission_id"
+      ]
+    },
+    {
+      "event": "lead_interest_click",
+      "scope": "contact intent",
+      "parameters": [
+        "lead_channel",
+        "page_path"
+      ]
+    },
+    {
+      "event": "cross_brand_click",
+      "scope": "relevant brand handoff only",
+      "parameters": [
+        "destination_brand",
+        "source_path"
+      ]
+    }
+  ],
+  "kpis": {
+    "seo": "Search Console impressions, clicks, query mix, landing-page CTR and average position",
+    "behavior": "workflow LP -> demo/safety -> diagnosis start rate",
+    "lead": "diagnosis success, qualified consultation rate, proposal rate",
+    "revenue": "won deals, average initial price, monthly support migration, gross margin",
+    "quality": "delivery lead time, revisions, incidents, customer satisfaction"
+  },
+  "guardrails": [
+    "Do not optimize for raw traffic alone.",
+    "Do not claim time savings until measured against a customer baseline.",
+    "Do not auto-send customer-facing AI output by default.",
+    "Do not put credentials or production secrets into analytics parameters."
+  ]
+}

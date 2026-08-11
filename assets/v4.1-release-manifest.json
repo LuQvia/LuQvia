@@ -1,0 +1,46 @@
+{
+  "version": "4.1.0",
+  "release": "SEO_PRODUCTS_ROI_LOCAL_INDUSTRY",
+  "date": "2026-08-11",
+  "new_paths": [
+    "/products/",
+    "/products/free-ai-automation-diagnosis/",
+    "/products/mini-ai-automation/",
+    "/products/workflow-automation-implementation/",
+    "/products/monthly-automation-optimization/",
+    "/ai-automation-roi-calculator/",
+    "/ai-automation-cost/",
+    "/hamamatsu-ai-automation/",
+    "/shizuoka-ai-automation/",
+    "/industries/equipment-maintenance-ai-automation/",
+    "/industries/wholesale-order-ai-automation/",
+    "/industries/b2b-service-ai-automation/",
+    "/gmail-ai-automation/",
+    "/outlook-ai-automation/",
+    "/excel-ai-automation/",
+    "/google-sheets-ai-automation/",
+    "/blog/ai-dx-subsidy-2026/"
+  ],
+  "strategy": {
+    "primary": "AI workflow automation for receive-classify-extract-register-route-draft-approve workflows",
+    "products": [
+      "free diagnosis",
+      "mini automation",
+      "full workflow implementation",
+      "monthly optimization"
+    ],
+    "seo_clusters": [
+      "cost/ROI",
+      "Hamamatsu/Shizuoka local",
+      "equipment/wholesale/B2B industry demos",
+      "Gmail/Outlook/Excel/Google Sheets",
+      "2026 subsidy guide"
+    ]
+  },
+  "safety": {
+    "human_approval_default": true,
+    "roi_not_guaranteed": true,
+    "subsidy_eligibility_not_claimed": true,
+    "tool_connection_not_guaranteed": true
+  }
+}

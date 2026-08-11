@@ -1,0 +1,38 @@
+{
+  "version": "4.1.0",
+  "date": "2026-08-11",
+  "events": [
+    {
+      "event": "ai_automation_roi_calculate",
+      "purpose": "ROI calculator engagement",
+      "params": [
+        "monthly_hours",
+        "saved_hours",
+        "automation_rate"
+      ]
+    },
+    {
+      "event": "industry_automation_demo_run",
+      "purpose": "industry demo engagement",
+      "params": [
+        "industry_demo"
+      ]
+    },
+    {
+      "event": "ai_automation_diagnosis_submit_start",
+      "purpose": "diagnosis funnel"
+    },
+    {
+      "event": "ai_automation_diagnosis_submit_success",
+      "purpose": "confirmed diagnosis"
+    }
+  ],
+  "recommended_dimensions": [
+    "source",
+    "interest",
+    "entry_product",
+    "industry_demo",
+    "roi_saved_hours"
+  ],
+  "note": "Register only dimensions actually needed for reporting; avoid collecting sensitive payload values in analytics."
+}

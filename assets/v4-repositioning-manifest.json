@@ -1,0 +1,40 @@
+{
+  "version": "4.0.0",
+  "date": "2026-08-11",
+  "positioning": "問い合わせ・メール・PDFから始まる受信業務AI自動化",
+  "primary_pages": [
+    "/",
+    "/automation/",
+    "/inquiry-email-automation/",
+    "/order-email-automation/",
+    "/pdf-excel-automation/",
+    "/estimate-automation/",
+    "/ai-automation-safety/",
+    "/ai-automation-demo/",
+    "/price/",
+    "/diagnosis/"
+  ],
+  "principles": [
+    "existing_tools_first",
+    "one_workflow_first",
+    "human_approval_default",
+    "exception_to_human",
+    "no_forced_full_automation"
+  ],
+  "finalized_pages": [
+    "/",
+    "/automation/",
+    "/inquiry-email-automation/",
+    "/order-email-automation/",
+    "/pdf-excel-automation/",
+    "/estimate-automation/",
+    "/ai-automation-safety/",
+    "/ai-automation-demo/",
+    "/price/",
+    "/diagnosis/",
+    "/faq/",
+    "/works/"
+  ],
+  "diagnosis_backend_compatibility": "v4 fields plus legacy v3 keys; live GAS save/autoreply requires post-deploy test",
+  "measurement_plan": "/assets/v4-conversion-measurement-plan.json"
+}

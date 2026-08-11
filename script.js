@@ -65,5 +65,8 @@ if('IntersectionObserver'in window){revealTargets.forEach(el=>el.classList.add('
 
 
 
-/* LuQvia v3.6.0 package analytics */
+/* LuQvia v4.0.0 package analytics */
 (function(){function emit(n,p){if(typeof window.gtag==='function')window.gtag('event',n,p||{});window.dataLayer=window.dataLayer||[];window.dataLayer.push(Object.assign({event:n},p||{}));}if(location.pathname==='/price/'||location.pathname==='/price/index.html')emit('package_view',{page_path:location.pathname});document.addEventListener('click',function(e){var a=e.target.closest('a[data-cta="package"]');if(!a)return;emit('package_interest_click',{service:a.dataset.service||'',link_url:a.href,page_path:location.pathname});});})();
+
+/* LuQvia v4.0.0 AI automation intent tracking */
+(function(){function emit(n,p){if(typeof window.gtag==='function')window.gtag('event',n,p||{});window.dataLayer=window.dataLayer||[];window.dataLayer.push(Object.assign({event:n},p||{}));}document.addEventListener('DOMContentLoaded',function(){if(document.body&&document.body.dataset.serviceArea==='ai-automation')emit('ai_automation_page_view',{page_path:location.pathname});document.querySelectorAll('a[href^="/inquiry-email-automation"],a[href^="/order-email-automation"],a[href^="/pdf-excel-automation"],a[href^="/estimate-automation"]').forEach(function(a){a.addEventListener('click',function(){emit('ai_automation_workflow_click',{destination:a.getAttribute('href'),source_path:location.pathname});});});});})();

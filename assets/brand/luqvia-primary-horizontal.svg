@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="600" viewBox="0 0 2000 600">
+      <g transform="translate(70 65) scale(0.46)"><rect width="1024" height="1024" rx="220" fill="#17212B"/>
+        <circle cx="475" cy="470" r="255" fill="none" stroke="#B08A5B" stroke-width="78"/>
+        <path d="M640 640 L815 815" fill="none" stroke="#B08A5B" stroke-width="88" stroke-linecap="round"/>
+        <path d="M475 285 C360 285 285 365 285 475 C285 585 365 655 475 655" fill="none" stroke="#FFFFFF" stroke-width="38" stroke-linecap="round" opacity="0.96"/>
+        <circle cx="806" cy="806" r="38" fill="#FFFFFF" opacity="0.96"/>
+        </g>
+      <text x="650" y="335" font-family="DejaVu Sans,Arial,sans-serif" font-size="250" font-weight="700" letter-spacing="-6" fill="#17212B">Lu</text>
+      <text x="985" y="335" font-family="DejaVu Sans,Arial,sans-serif" font-size="250" font-weight="700" letter-spacing="-6" fill="#B08A5B">Q</text>
+      <text x="1196" y="335" font-family="DejaVu Sans,Arial,sans-serif" font-size="250" font-weight="700" letter-spacing="-6" fill="#17212B">via</text>
+      
+    </svg>

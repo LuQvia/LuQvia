@@ -1,0 +1,25 @@
+{
+  "version": "4.3.0",
+  "date": "2026-08-16",
+  "purpose": "User-first readability and information hierarchy",
+  "principles": [
+    "clear first-screen purpose",
+    "fewer columns",
+    "stronger content hierarchy",
+    "restrained CTA palette",
+    "readable line length"
+  ],
+  "homepage_order": [
+    "hero",
+    "pain",
+    "workflows",
+    "products",
+    "safety",
+    "process",
+    "automation-level",
+    "roi-demo",
+    "about",
+    "cta"
+  ],
+  "html_cache_bust_updates": 64
+}

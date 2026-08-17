@@ -64,3 +64,141 @@ section{padding:88px 0}.white{background:#fff}.soft{background:var(--bg)}.sectio
 /* LuQvia v4.1.0 SEO + PRODUCTS + ROI */
 .product-grid-v41{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.product-v41-card{display:block;padding:28px;border:1px solid var(--line);border-radius:24px;background:#fff;box-shadow:0 10px 28px rgba(16,29,44,.05)}.product-v41-card.featured{border:2px solid #75bdd6;background:linear-gradient(145deg,#fff,#eaf8fb)}.product-v41-card>span{font-size:10px;letter-spacing:.12em;font-weight:950;color:var(--accent)}.product-v41-card h3{color:var(--navy);font-size:21px;margin:8px 0}.product-v41-card strong{display:block;color:var(--accent);font-size:25px;margin:10px 0}.product-v41-card p{color:var(--sub);min-height:88px}.product-v41-card b{color:var(--accent)}.product-detail-v41{display:grid;grid-template-columns:.8fr 1.2fr;gap:32px;align-items:start}.big-price-v41{font-size:40px;font-weight:950;color:var(--accent);margin:8px 0 12px}.roi-shell-v41{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}.roi-form-v41,.roi-result-v41{padding:30px;border-radius:24px;border:1px solid var(--line);background:#fff}.roi-form-v41 label{display:grid;gap:7px;margin:15px 0;color:var(--navy);font-weight:850}.roi-form-v41 input[type=number]{padding:13px 14px;border:1px solid var(--line);border-radius:12px;font:inherit}.roi-form-v41 input[type=range]{width:100%}.range-value{color:var(--accent);font-weight:950}.roi-result-v41{background:linear-gradient(145deg,#102334,#17495e);color:#fff}.roi-result-v41>span{display:block;color:#bcd4df;font-size:12px;margin-top:11px}.roi-result-v41>strong{display:block;font-size:28px;margin:4px 0 10px}.roi-result-v41 .btn{margin-top:18px}.roi-result-v41 small{display:block;margin-top:12px;color:#cfe1e8}.source-note-v41{padding:28px;border:1px solid #a9d0df;border-radius:24px;background:#f3fafc}.source-note-v41>span,.source-verified-v41{display:block;color:var(--accent);font-size:11px;letter-spacing:.08em;font-weight:950}.source-note-v41 h2,.source-note-v41 h3{color:var(--navy)}.industry-demo-v41{display:grid;grid-template-columns:1fr 1fr;gap:22px}.industry-demo-v41>div{padding:28px;border-radius:24px;border:1px solid var(--line);background:#fff}.industry-demo-v41 textarea{width:100%;box-sizing:border-box;margin:12px 0 14px;border:1px solid var(--line);border-radius:14px;padding:14px;font:inherit}.industry-demo-result-v41{background:#f2f8fa!important}.industry-demo-result-v41 pre{white-space:pre-wrap;background:#101d2c;color:#dff6ff;padding:17px;border-radius:14px;min-height:180px}.article-body-v41{max-width:920px}.article-body-v41 h2{color:var(--navy);margin-top:38px}.article-body-v41 p,.article-body-v41 li{line-height:1.9}.cluster-grid-v41{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.cluster-card-v41{display:block;padding:24px;border-radius:20px;border:1px solid var(--line);background:#fff}.cluster-card-v41 span{font-size:10px;letter-spacing:.1em;color:var(--accent);font-weight:950}.cluster-card-v41 h3{color:var(--navy);margin:8px 0}.cluster-card-v41 p{color:var(--sub)}
 @media(max-width:1000px){.product-grid-v41,.cluster-grid-v41{grid-template-columns:repeat(2,1fr)}.product-detail-v41,.roi-shell-v41,.industry-demo-v41{grid-template-columns:1fr}}@media(max-width:680px){.product-grid-v41,.cluster-grid-v41{grid-template-columns:1fr}.product-v41-card p{min-height:auto}.big-price-v41{font-size:34px}}
+
+/* LuQvia v4.2.2 Accessible Contrast Palette */
+:root{
+  --bg:#f8fafc;
+  --soft:#f1f5f9;
+  --white:#ffffff;
+  --main:#111827;
+  --navy:#0f172a;
+  --sub:#475569;
+  --accent:#2563eb;
+  --accent2:#60a5fa;
+  --green:#15803d;
+  --red:#b91c1c;
+  --line:#cbd5e1;
+  --shadow:0 18px 48px rgba(15,23,42,.10);
+}
+body{background:#fff;color:var(--main)}
+.soft{background:var(--bg)}
+.white{background:#fff}
+.nav{color:var(--sub)}
+.nav a:hover{color:var(--navy)}
+.logo span,.section-kicker,.text-link,.center-link a,.process-grid span,.label,.price,.range-value,.cluster-card-v41 span,.product-v41-card>span,.product-v41-card strong,.product-v41-card b,.big-price-v41,.workflow-map span,.before-after span,.v4-benefits .card>span,.five-grid .card>span{color:var(--accent)}
+.lead,.trust-row,.section-head p,.card p,.service-card p,.plan p,.notice-box p,.seo-box p,.sample-card p,ul,.process-grid p,.sample-highlight p,td,details p,.breadcrumb,.page-hero p,.intent-card p,.workflow-map p,.demo-input small,.demo-status,.result-grid span,.cluster-card-v41 p{color:var(--sub)}
+.text-muted{color:#64748b}
+.header{background:rgba(255,255,255,.96);border-bottom-color:#d7e0e8}
+.header-cta,.btn-primary,.mobile-cta .diagnosis{background:var(--accent);color:#fff;border-color:var(--accent)}
+.header-cta:hover,.btn-primary:hover,.mobile-cta .diagnosis:hover{background:#1d4ed8}
+.btn-outline{background:#fff;border-color:#94a3b8;color:var(--navy)}
+.btn-outline:hover{border-color:var(--accent);color:var(--accent)}
+.btn-line,.mobile-cta .line{background:var(--green);color:#fff}
+.hero-card,.card,.service-card,.plan,.notice-box,.seo-box,.sample-card,.process-grid>div,.intent-card,.level-grid>div,.workflow-map>div,.before-after>div,.demo-input,.demo-output,.result-grid>div,.pricing-v4-card,.product-v41-card,.roi-form-v41,.industry-demo-v41>div,.cluster-card-v41{background:#fff;border-color:var(--line)}
+.icon-card span,.label{background:#eff6ff}
+.plan-feature.featured,.pricing-v4-card.featured,.product-v41-card.featured{background:linear-gradient(145deg,#fff,#eff6ff);border-color:#93c5fd}
+.table-wrap,.table-scroll{background:#fff;border:1px solid var(--line)}
+th{background:var(--navy);color:#fff}
+.table-scroll th{background:#eff6ff;color:var(--navy)}
+td{background:#fff}
+td strong{color:var(--navy)}
+.keyword{background:#fff;border-color:var(--line);color:var(--sub)}
+.notice-box.warning{background:#fff7ed;border-color:#fdba74}.notice-box.warning h3{color:var(--red)}
+.good-panel{background:#f0fdf4;border-color:#86efac}.caution-panel{background:#fff7ed;border-color:#fdba74}
+.source-note-v41{background:#f8fafc;border-color:#94a3b8}
+.source-note-v41>span,.source-verified-v41{color:var(--accent)}
+.demo-output,.industry-demo-result-v41{background:#f8fafc!important}
+.demo-register pre,.industry-demo-result-v41 pre{background:#0f172a;color:#e0f2fe}
+.approval-chip{background:#dcfce7;color:#166534}
+
+/* Dark sections: explicitly override inherited dark heading/body colors */
+.automation-v4 .hero.v4-hero,
+.automation-v4 .v4-page-hero{
+  background:radial-gradient(circle at 78% 18%,rgba(37,99,235,.24),transparent 34%),linear-gradient(135deg,#0f172a 0%,#172554 58%,#0c4a6e 100%);
+  color:#fff;
+}
+.automation-v4 .v4-hero h1,
+.automation-v4 .v4-page-hero h1,
+.automation-v4 .v4-page-hero h2,
+.automation-v4 .v4-page-hero h3{color:#fff}
+.automation-v4 .v4-hero h1 strong,
+.automation-v4 .v4-page-hero h1 strong{color:#7dd3fc}
+.automation-v4 .v4-hero .lead,
+.automation-v4 .v4-page-hero p{color:#dbeafe}
+.automation-v4 .v4-hero .trust-row{color:#e2e8f0}
+.automation-v4 .v4-hero .btn-primary,
+.automation-v4 .v4-page-hero .btn-primary,
+.cta .btn-primary{background:#2563eb;border-color:#60a5fa;color:#fff}
+.automation-v4 .v4-hero .btn-outline,
+.automation-v4 .v4-page-hero .btn-outline,
+.cta .btn-outline,.cta .inverse{background:#fff;border-color:#fff;color:#0f172a}
+.automation-v4 .v4-flow-card{background:#fff;color:var(--main)}
+.automation-v4 .v4-flow-card strong{color:var(--navy)}
+.automation-v4 .v4-flow-card small{color:var(--sub)}
+.cta{background:radial-gradient(circle at top right,rgba(37,99,235,.28),transparent 35%),#0f172a;color:#fff}
+.cta h2,.cta h3{color:#fff}.cta p{color:#e2e8f0}.mail-link{color:#e2e8f0}
+.footer{background:#0f172a;color:#cbd5e1}.footer p{color:#cbd5e1}.footer-links strong,.footer-logo{color:#fff}
+.roi-result-v41{background:linear-gradient(145deg,#0f172a,#0c4a6e);color:#fff}
+.roi-result-v41>span{color:#dbeafe}.roi-result-v41 small{color:#dbeafe}
+
+/* Forms and controls: prevent pale borders/text from disappearing */
+input,select,textarea{background:#fff;color:var(--main);border-color:#94a3b8}
+input::placeholder,textarea::placeholder{color:#64748b;opacity:1}
+input:focus,select:focus,textarea:focus{outline:3px solid rgba(37,99,235,.18);border-color:var(--accent)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid rgba(37,99,235,.35);outline-offset:2px}
+
+/* Ensure status badges remain legible */
+.badge{background:rgba(255,255,255,.94);border-color:#bfdbfe;color:#1d4ed8}
+.automation-v4 .v4-page-hero .badge,.automation-v4 .v4-hero .badge{background:#fff;color:#1d4ed8;border-color:#bfdbfe}
+
+/* v4.2.2 visual QA corrections */
+.automation-v4 .v4-flow-card .flow-stack strong{color:var(--navy)}
+.automation-v4 .v4-flow-card .flow-stack small{color:var(--sub)}
+.automation-v4 .v4-flow-card .price-strip,.automation-v4 .v4-flow-card .price-strip strong{color:#fff}
+.automation-v4 .v4-flow-card .price-strip span,.automation-v4 .v4-flow-card .price-strip small{color:rgba(255,255,255,.78)}
+.fine-print{color:#64748b!important}
+.diagnosis-promise span{background:rgba(15,23,42,.35);border-color:rgba(255,255,255,.38);color:#fff}
+
+
+/* LuQvia v4.3.0 user-first information hierarchy / readability */
+:root{--readability-max:72ch}
+body{background:#FFFFFF}
+.automation-v4 section{padding:74px 0}
+.automation-v4 .soft{background:#F8FAFC}
+.automation-v4 .section-head{max-width:780px;margin:0 0 32px;text-align:left}
+.automation-v4 .section-head p{max-width:62ch;margin:12px 0 0}
+.automation-v4 .section-head h2{font-size:clamp(28px,3.7vw,40px);line-height:1.32}
+.automation-v4 .hero.v4-hero{padding:78px 0 66px}
+.automation-v4 .v4-hero h1{max-width:16ch;font-size:clamp(38px,5.2vw,58px);line-height:1.16}
+.automation-v4 .v4-hero .lead{max-width:62ch;line-height:1.78}
+.automation-v4 .v4-hero .btn-primary{background:#2563EB}
+.automation-v4 .v4-hero .btn-primary:hover{background:#1D4ED8}
+.automation-v4 .v4-hero .btn-line{background:transparent;border-color:rgba(255,255,255,.44);color:#FFFFFF;box-shadow:none}
+.automation-v4 .v4-flow-card{box-shadow:0 12px 34px rgba(15,23,42,.12)}
+.automation-v4 .card,.automation-v4 .intent-card,.automation-v4 .level-grid>div,.automation-v4 .product-v41-card,.automation-v4 .cluster-card-v41,.automation-v4 .process-grid>div,.automation-v4 .notice-box{border-radius:18px;box-shadow:none}
+.automation-v4 .four-grid,.automation-v4 .level-grid,.automation-v4 .product-grid-v41{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.automation-v4 .five-grid,.automation-v4 .process-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.automation-v4 .service-intent-grid{gap:16px}
+.automation-v4 .intent-card{padding:24px}
+.automation-v4 .intent-card p,.automation-v4 .card p,.automation-v4 .process-grid p,.automation-v4 .level-grid p{line-height:1.72}
+.automation-v4 .product-v41-card{padding:24px}
+.automation-v4 .product-v41-card.featured{border-width:2px}
+.automation-v4 .table-scroll{border:1px solid var(--line);border-radius:16px;background:#FFFFFF}
+.automation-v4 .table-scroll table{border:0}
+.automation-v4 .table-scroll th{background:#EFF6FF;color:#0F172A}
+.automation-v4 .table-scroll td{color:#111827}
+.automation-v4 .notice-box{background:#FFFFFF}
+.automation-v4 .cta{padding:66px 0}
+.automation-v4 .cta h2{max-width:18ch}
+.automation-v4 .page-hero,.automation-v4 .v4-page-hero{padding:58px 0}
+.automation-v4 .page-hero p,.automation-v4 .v4-page-hero p{max-width:68ch;line-height:1.78}
+.automation-v4 article p,.automation-v4 article li,.automation-v4 .prose p,.automation-v4 .prose li{max-width:var(--readability-max)}
+.automation-v4 details{box-shadow:none}
+@media(max-width:960px){.automation-v4 .four-grid,.automation-v4 .level-grid,.automation-v4 .product-grid-v41,.automation-v4 .five-grid,.automation-v4 .process-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.automation-v4 section{padding:58px 0}.automation-v4 .hero.v4-hero{padding:58px 0 50px}.automation-v4 .section-head{margin-bottom:24px}.automation-v4 .four-grid,.automation-v4 .level-grid,.automation-v4 .product-grid-v41,.automation-v4 .five-grid,.automation-v4 .process-grid{grid-template-columns:1fr}.automation-v4 .intent-card,.automation-v4 .card,.automation-v4 .product-v41-card{padding:20px}.automation-v4 .hero-actions{gap:10px}.automation-v4 .hero-actions .btn{width:100%}}
+
+/* v4.3.0 mobile CTA readability: avoid covering first-screen content */
+@media(max-width:960px){
+  .automation-v4 .mobile-cta{opacity:0;pointer-events:none;transform:translateY(14px);transition:opacity .2s ease,transform .2s ease}
+  .automation-v4 .mobile-cta.is-visible{opacity:1;pointer-events:auto;transform:translateY(0)}
+}

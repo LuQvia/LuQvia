@@ -70,3 +70,17 @@ if('IntersectionObserver'in window){revealTargets.forEach(el=>el.classList.add('
 
 /* LuQvia v4.0.0 AI automation intent tracking */
 (function(){function emit(n,p){if(typeof window.gtag==='function')window.gtag('event',n,p||{});window.dataLayer=window.dataLayer||[];window.dataLayer.push(Object.assign({event:n},p||{}));}document.addEventListener('DOMContentLoaded',function(){if(document.body&&document.body.dataset.serviceArea==='ai-automation')emit('ai_automation_page_view',{page_path:location.pathname});document.querySelectorAll('a[href^="/inquiry-email-automation"],a[href^="/order-email-automation"],a[href^="/pdf-excel-automation"],a[href^="/estimate-automation"]').forEach(function(a){a.addEventListener('click',function(){emit('ai_automation_workflow_click',{destination:a.getAttribute('href'),source_path:location.pathname});});});});})();
+
+/* LuQvia v4.3.0 delayed mobile CTA: show after the first screen so it does not cover hero content. */
+(function(){
+  var cta=document.querySelector('.automation-v4 .mobile-cta')||document.querySelector('.mobile-cta');
+  if(!cta)return;
+  var mq=window.matchMedia('(max-width: 960px)');
+  function sync(){
+    var show=mq.matches&&window.scrollY>Math.max(420,window.innerHeight*.72);
+    cta.classList.toggle('is-visible',show);
+  }
+  window.addEventListener('scroll',sync,{passive:true});
+  window.addEventListener('resize',sync);
+  sync();
+})();

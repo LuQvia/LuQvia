@@ -1,0 +1,15 @@
+{
+  "version": "4.2.2",
+  "date": "2026-08-16",
+  "name": "Accessible Contrast Palette",
+  "scope": [
+    "site-wide color contrast",
+    "dark hero heading readability",
+    "button contrast",
+    "form control visibility",
+    "card and table hierarchy"
+  ],
+  "content_changes": false,
+  "seo_changes": false,
+  "google_verification_preserved": true
+}
